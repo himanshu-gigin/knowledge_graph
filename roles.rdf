@@ -3,52 +3,10 @@
    xmlns:ns1="http://example.org/"
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
 >
-  <rdf:Description rdf:about="http://example.org/Job_Preference">
-    <ns1:includes rdf:resource="http://example.org/WFH"/>
-    <ns1:includes rdf:resource="http://example.org/Office"/>
-    <ns1:includes rdf:resource="http://example.org/Field_Jobs"/>
-    <ns1:includes rdf:resource="http://example.org/Part-time/Contract/Full-time"/>
-    <ns1:includes rdf:resource="http://example.org/Shift_Timings/Week_off"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Educational_University">
-    <ns1:includes rdf:resource="http://example.org/Recognized_Universities"/>
-    <ns1:includes rdf:resource="http://example.org/Recognized_Colleges"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Industry-Specific_Knowledge">
-    <ns1:hasSkill rdf:resource="http://example.org/Sales_Knowledge"/>
-    <ns1:hasSkill rdf:resource="http://example.org/Marketing_Knowledge"/>
-    <ns1:hasSkill rdf:resource="http://example.org/Customer_Service_Knowledge"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Incentives/Allowances">
-    <ns1:hasComponent rdf:resource="http://example.org/Transport_allowance"/>
-    <ns1:hasComponent rdf:resource="http://example.org/Food_allowance"/>
-    <ns1:hasComponent rdf:resource="http://example.org/Accommodation_allowance"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Company_Types">
-    <ns1:includes rdf:resource="http://example.org/Private_Sector"/>
-    <ns1:includes rdf:resource="http://example.org/Public_Sector"/>
-    <ns1:includes rdf:resource="http://example.org/NGO_Sector"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Industries">
-    <ns1:includes rdf:resource="http://example.org/Finance"/>
-    <ns1:includes rdf:resource="http://example.org/Retail"/>
-    <ns1:includes rdf:resource="http://example.org/Technology"/>
-    <ns1:includes rdf:resource="http://example.org/Marketing"/>
-    <ns1:includes rdf:resource="http://example.org/Banking"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Part-time/Contract/Full-time">
-    <ns1:hasOption rdf:resource="http://example.org/Full-time"/>
-    <ns1:hasOption rdf:resource="http://example.org/Part-time"/>
-    <ns1:hasOption rdf:resource="http://example.org/Contract_roles"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Two_Wheeler/Laptops_and_Wi-Fi">
-    <ns1:requiresAsset rdf:resource="http://example.org/Laptop"/>
-    <ns1:requiresAsset rdf:resource="http://example.org/Two_Wheeler"/>
-    <ns1:requiresAsset rdf:resource="http://example.org/Wi-Fi"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Salary_&amp;_Benefits">
-    <ns1:includes rdf:resource="http://example.org/Fixed/Variable_Salary"/>
-    <ns1:includes rdf:resource="http://example.org/Incentives/Allowances"/>
+  <rdf:Description rdf:about="http://example.org/Work_Location">
+    <ns1:hasCharacteristic rdf:resource="http://example.org/office"/>
+    <ns1:hasCharacteristic rdf:resource="http://example.org/field"/>
+    <ns1:hasCharacteristic rdf:resource="http://example.org/remote_jobs"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Sales_Executive">
     <ns1:requiresExperience rdf:resource="http://example.org/Work_History"/>
@@ -78,46 +36,12 @@
     <ns1:requiresKnowledge rdf:resource="http://example.org/Industry-Specific_Knowledge"/>
     <ns1:hasRelatedRoles rdf:resource="http://example.org/Similar_Roles"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Geographical_Locations">
-    <ns1:includes rdf:resource="http://example.org/Preferred_Location"/>
-    <ns1:includes rdf:resource="http://example.org/Current_Location"/>
-    <ns1:includes rdf:resource="http://example.org/Work_Location"/>
-    <ns1:includes rdf:resource="http://example.org/Home_Location"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Current_Location">
-    <ns1:hasCharacteristic rdf:resource="http://example.org/Diverse"/>
-    <ns1:hasCharacteristic rdf:resource="http://example.org/covering_major_cities"/>
-    <ns1:hasCharacteristic rdf:resource="http://example.org/regions_across_India"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Professional_Certificates">
-    <ns1:includes rdf:resource="http://example.org/MS_Office"/>
-    <ns1:includes rdf:resource="http://example.org/CRM"/>
-    <ns1:includes rdf:resource="http://example.org/Technical_Platforms"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Technical_Skills">
-    <ns1:hasSkill rdf:resource="http://example.org/CRM"/>
-    <ns1:hasSkill rdf:resource="http://example.org/MS_Office"/>
-    <ns1:hasSkill rdf:resource="http://example.org/Database_Management"/>
-    <ns1:hasSkill rdf:resource="http://example.org/Negotiation"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Job_Roles_and_Titles">
-    <ns1:includes rdf:resource="http://example.org/Sales_Executive"/>
-    <ns1:includes rdf:resource="http://example.org/Inside_Sales"/>
-    <ns1:includes rdf:resource="http://example.org/Business_Development"/>
-    <ns1:includes rdf:resource="http://example.org/Marketing_Executive"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Fixed/Variable_Salary">
-    <ns1:hasComponent rdf:resource="http://example.org/Fixed_component"/>
-    <ns1:hasComponent rdf:resource="http://example.org/Variable_component"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Preferred_Location">
-    <ns1:hasCharacteristic rdf:resource="http://example.org/Mostly_urban_centers"/>
-    <ns1:hasCharacteristic rdf:resource="http://example.org/willingness_to_relocate_as_per_job_requirement"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Skills_and_Competencies">
-    <ns1:includes rdf:resource="http://example.org/Soft_Skills"/>
-    <ns1:includes rdf:resource="http://example.org/Industry-Specific_Knowledge"/>
-    <ns1:includes rdf:resource="http://example.org/Similar_Roles"/>
+  <rdf:Description rdf:about="http://example.org/Job_Preference">
+    <ns1:includes rdf:resource="http://example.org/WFH"/>
+    <ns1:includes rdf:resource="http://example.org/Office"/>
+    <ns1:includes rdf:resource="http://example.org/Field_Jobs"/>
+    <ns1:includes rdf:resource="http://example.org/Part-time/Contract/Full-time"/>
+    <ns1:includes rdf:resource="http://example.org/Shift_Timings/Week_off"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Academic_Degrees">
     <ns1:shouldHave rdf:resource="http://example.org/Degrees_in_Business_Admin"/>
@@ -125,11 +49,76 @@
     <ns1:shouldHave rdf:resource="http://example.org/Computer_Apps"/>
     <ns1:shouldHave rdf:resource="http://example.org/Engineering"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Soft_Skills">
-    <ns1:hasSkill rdf:resource="http://example.org/Communication"/>
-    <ns1:hasSkill rdf:resource="http://example.org/Teamwork"/>
-    <ns1:hasSkill rdf:resource="http://example.org/Leadership"/>
-    <ns1:hasSkill rdf:resource="http://example.org/Adaptability"/>
+  <rdf:Description rdf:about="http://example.org/WFH/Office/Field_Jobs">
+    <ns1:hasOption rdf:resource="http://example.org/Work_From_Home"/>
+    <ns1:hasOption rdf:resource="http://example.org/Office"/>
+    <ns1:hasOption rdf:resource="http://example.org/Field_Jobs"/>
+    <ns1:hasOption rdf:resource="http://example.org/Mixed_preferences"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Specializations">
+    <ns1:shouldHave rdf:resource="http://example.org/Business"/>
+    <ns1:shouldHave rdf:resource="http://example.org/Commerce"/>
+    <ns1:shouldHave rdf:resource="http://example.org/IT"/>
+    <ns1:shouldHave rdf:resource="http://example.org/Engineering"/>
+    <ns1:shouldHave rdf:resource="http://example.org/Law"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Part-time/Contract/Full-time">
+    <ns1:hasOption rdf:resource="http://example.org/Full-time"/>
+    <ns1:hasOption rdf:resource="http://example.org/Part-time"/>
+    <ns1:hasOption rdf:resource="http://example.org/Contract_roles"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Technical_Skills">
+    <ns1:hasSkill rdf:resource="http://example.org/CRM"/>
+    <ns1:hasSkill rdf:resource="http://example.org/MS_Office"/>
+    <ns1:hasSkill rdf:resource="http://example.org/Database_Management"/>
+    <ns1:hasSkill rdf:resource="http://example.org/Negotiation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Sale_Executive">
+    <ns1:requiresDegree rdf:resource="http://example.org/Academic_Degrees"/>
+    <ns1:requires rdf:resource="http://example.org/Specializations"/>
+    <ns1:acceptsEducationFrom rdf:resource="http://example.org/Educational_Institutions"/>
+    <ns1:recognizesInstitution rdf:resource="http://example.org/Educational_University"/>
+    <ns1:requiresCertification rdf:resource="http://example.org/ProfessionalCertificates"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Industry-Specific_Knowledge">
+    <ns1:hasSkill rdf:resource="http://example.org/Sales_Knowledge"/>
+    <ns1:hasSkill rdf:resource="http://example.org/Marketing_Knowledge"/>
+    <ns1:hasSkill rdf:resource="http://example.org/Customer_Service_Knowledge"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Preferred_Location">
+    <ns1:hasCharacteristic rdf:resource="http://example.org/Mostly_urban_centers"/>
+    <ns1:hasCharacteristic rdf:resource="http://example.org/willingness_to_relocate_as_per_job_requirement"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Two_Wheeler">
+    <ns1:hasRequirement rdf:resource="http://example.org/Required_as_per_job_needs"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Job_Roles_and_Titles">
+    <ns1:includes rdf:resource="http://example.org/Sales_Executive"/>
+    <ns1:includes rdf:resource="http://example.org/Inside_Sales"/>
+    <ns1:includes rdf:resource="http://example.org/Business_Development"/>
+    <ns1:includes rdf:resource="http://example.org/Marketing_Executive"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Wi-Fi">
+    <ns1:hasRequirement rdf:resource="http://example.org/Required_for_connectivity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Current_Location">
+    <ns1:hasCharacteristic rdf:resource="http://example.org/Diverse"/>
+    <ns1:hasCharacteristic rdf:resource="http://example.org/covering_major_cities"/>
+    <ns1:hasCharacteristic rdf:resource="http://example.org/regions_across_India"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/metadata">
+    <ns1:generated_on>2024-12-20 03:34:45</ns1:generated_on>
+    <ns1:generated_by>himanshu-gigin</ns1:generated_by>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Professional_Certificates">
+    <ns1:includes rdf:resource="http://example.org/MS_Office"/>
+    <ns1:includes rdf:resource="http://example.org/CRM"/>
+    <ns1:includes rdf:resource="http://example.org/Technical_Platforms"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Company_Types">
+    <ns1:includes rdf:resource="http://example.org/Private_Sector"/>
+    <ns1:includes rdf:resource="http://example.org/Public_Sector"/>
+    <ns1:includes rdf:resource="http://example.org/NGO_Sector"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Work_History">
     <ns1:includes rdf:resource="http://example.org/Sales"/>
@@ -137,6 +126,36 @@
     <ns1:includes rdf:resource="http://example.org/Retail"/>
     <ns1:includes rdf:resource="http://example.org/Banking"/>
     <ns1:includes rdf:resource="http://example.org/Technology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Fixed/Variable_Salary">
+    <ns1:hasComponent rdf:resource="http://example.org/Fixed_component"/>
+    <ns1:hasComponent rdf:resource="http://example.org/Variable_component"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Two_Wheeler/Laptops_and_Wi-Fi">
+    <ns1:requiresAsset rdf:resource="http://example.org/Laptop"/>
+    <ns1:requiresAsset rdf:resource="http://example.org/Two_Wheeler"/>
+    <ns1:requiresAsset rdf:resource="http://example.org/Wi-Fi"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Salary_&amp;_Benefits">
+    <ns1:includes rdf:resource="http://example.org/Fixed/Variable_Salary"/>
+    <ns1:includes rdf:resource="http://example.org/Incentives/Allowances"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Soft_Skills">
+    <ns1:hasSkill rdf:resource="http://example.org/Communication"/>
+    <ns1:hasSkill rdf:resource="http://example.org/Teamwork"/>
+    <ns1:hasSkill rdf:resource="http://example.org/Leadership"/>
+    <ns1:hasSkill rdf:resource="http://example.org/Adaptability"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Industries">
+    <ns1:includes rdf:resource="http://example.org/Finance"/>
+    <ns1:includes rdf:resource="http://example.org/Retail"/>
+    <ns1:includes rdf:resource="http://example.org/Technology"/>
+    <ns1:includes rdf:resource="http://example.org/Marketing"/>
+    <ns1:includes rdf:resource="http://example.org/Banking"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Home_Location">
+    <ns1:hasCharacteristic rdf:resource="http://example.org/Varied"/>
+    <ns1:hasCharacteristic rdf:resource="http://example.org/indicating_flexibility_in_job_location"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Similar_Roles">
     <ns1:hasRole rdf:resource="http://example.org/Sales_Representative"/>
@@ -146,57 +165,38 @@
     <ns1:hasRole rdf:resource="http://example.org/Sales_Specialist"/>
     <ns1:hasRole rdf:resource="http://example.org/Inside_Sales_Representative"/>
   </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Educational_University">
+    <ns1:includes rdf:resource="http://example.org/Recognized_Universities"/>
+    <ns1:includes rdf:resource="http://example.org/Recognized_Colleges"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://example.org/Geographical_Locations">
+    <ns1:includes rdf:resource="http://example.org/Preferred_Location"/>
+    <ns1:includes rdf:resource="http://example.org/Current_Location"/>
+    <ns1:includes rdf:resource="http://example.org/Work_Location"/>
+    <ns1:includes rdf:resource="http://example.org/Home_Location"/>
+  </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Educational_Institutions">
     <ns1:hasType rdf:resource="http://example.org/Universities"/>
     <ns1:hasType rdf:resource="http://example.org/Technical_Colleges"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Shift_Timings/Week_off">
-    <ns1:hasOption rdf:resource="http://example.org/Flexible_shift_timings"/>
-    <ns1:hasOption rdf:resource="http://example.org/Rotational_shifts"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Work_Location">
-    <ns1:hasCharacteristic rdf:resource="http://example.org/office"/>
-    <ns1:hasCharacteristic rdf:resource="http://example.org/field"/>
-    <ns1:hasCharacteristic rdf:resource="http://example.org/remote_jobs"/>
+  <rdf:Description rdf:about="http://example.org/Skills_and_Competencies">
+    <ns1:includes rdf:resource="http://example.org/Soft_Skills"/>
+    <ns1:includes rdf:resource="http://example.org/Industry-Specific_Knowledge"/>
+    <ns1:includes rdf:resource="http://example.org/Similar_Roles"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Language_Proficiency">
     <ns1:hasLanguage rdf:resource="http://example.org/English"/>
     <ns1:hasLanguage rdf:resource="http://example.org/Hindi"/>
     <ns1:hasLanguage rdf:resource="http://example.org/Regional_languages"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Sale_Executive">
-    <ns1:requiresDegree rdf:resource="http://example.org/Academic_Degrees"/>
-    <ns1:requires rdf:resource="http://example.org/Specializations"/>
-    <ns1:acceptsEducationFrom rdf:resource="http://example.org/Educational_Institutions"/>
-    <ns1:recognizesInstitution rdf:resource="http://example.org/Educational_University"/>
-    <ns1:requiresCertification rdf:resource="http://example.org/ProfessionalCertificates"/>
+  <rdf:Description rdf:about="http://example.org/Incentives/Allowances">
+    <ns1:hasComponent rdf:resource="http://example.org/Transport_allowance"/>
+    <ns1:hasComponent rdf:resource="http://example.org/Food_allowance"/>
+    <ns1:hasComponent rdf:resource="http://example.org/Accommodation_allowance"/>
   </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Wi-Fi">
-    <ns1:hasRequirement rdf:resource="http://example.org/Required_for_connectivity"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Two_Wheeler">
-    <ns1:hasRequirement rdf:resource="http://example.org/Required_as_per_job_needs"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Specializations">
-    <ns1:shouldHave rdf:resource="http://example.org/Business"/>
-    <ns1:shouldHave rdf:resource="http://example.org/Commerce"/>
-    <ns1:shouldHave rdf:resource="http://example.org/IT"/>
-    <ns1:shouldHave rdf:resource="http://example.org/Engineering"/>
-    <ns1:shouldHave rdf:resource="http://example.org/Law"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/WFH/Office/Field_Jobs">
-    <ns1:hasOption rdf:resource="http://example.org/Work_From_Home"/>
-    <ns1:hasOption rdf:resource="http://example.org/Office"/>
-    <ns1:hasOption rdf:resource="http://example.org/Field_Jobs"/>
-    <ns1:hasOption rdf:resource="http://example.org/Mixed_preferences"/>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/metadata">
-    <ns1:generated_on>2024-12-20 03:34:45</ns1:generated_on>
-    <ns1:generated_by>himanshu-gigin</ns1:generated_by>
-  </rdf:Description>
-  <rdf:Description rdf:about="http://example.org/Home_Location">
-    <ns1:hasCharacteristic rdf:resource="http://example.org/Varied"/>
-    <ns1:hasCharacteristic rdf:resource="http://example.org/indicating_flexibility_in_job_location"/>
+  <rdf:Description rdf:about="http://example.org/Shift_Timings/Week_off">
+    <ns1:hasOption rdf:resource="http://example.org/Flexible_shift_timings"/>
+    <ns1:hasOption rdf:resource="http://example.org/Rotational_shifts"/>
   </rdf:Description>
   <rdf:Description rdf:about="http://example.org/Laptop">
     <ns1:hasRequirement rdf:resource="http://example.org/Required_for_job"/>

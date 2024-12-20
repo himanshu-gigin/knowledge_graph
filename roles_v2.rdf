@@ -1,0 +1,35 @@
+@prefix ns1: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+ns1:JobRole a rdfs:Class .
+
+ns1:Qualification a rdfs:Class .
+
+ns1:Skill a rdfs:Class .
+
+ns1:BusinessAdminDegree a ns1:Qualification ;
+    ns1:name "Degree in Business Administration" .
+
+ns1:SalesCertification a ns1:Qualification ;
+    ns1:name "Professional Certification in Sales" .
+
+ns1:SalesExecutive a ns1:JobRole ;
+    ns1:name "Sales Executive" ;
+    ns1:requiresSkill ns1:CRM,
+        ns1:Negotiation .
+
+ns1:name a rdf:Property ;
+    rdfs:domain <http://schema.org/Thing> ;
+    rdfs:range rdfs:Literal .
+
+ns1:requiresSkill a rdf:Property ;
+    rdfs:domain ns1:JobRole ;
+    rdfs:range ns1:Skill .
+
+ns1:CRM a ns1:Skill ;
+    ns1:name "Customer Relationship Management" .
+
+ns1:Negotiation a ns1:Skill ;
+    ns1:name "Negotiation Skills" .
+

@@ -56,7 +56,7 @@ def insert_rdf_to_neo4j(driver, rdf_file_path):
     g.parse(rdf_file_path, format="xml")  # Assuming RDF/XML format
 
     # Iterate through all triples in the RDF graph and insert them into Neo4j
-    with driver.session() as session:
+    with driver.session(database='salesexecutive') as session:
         for subj, pred, obj in g:
             # Create nodes and relationships in Neo4j
             subj_uri = f"{subj.split('/')[-1]}"
@@ -65,9 +65,9 @@ def insert_rdf_to_neo4j(driver, rdf_file_path):
 
             # Construct the Cypher query for inserting RDF triples
             query = f"""
-        MERGE (subject:Resource {{uri: '{subj_uri}'}})
-        MERGE (predicate:Property {{uri: '{pred_uri}'}})
-        MERGE (object:Resource {{uri: '{obj_value}'}})
+        MERGE (subject:{subj_uri} {{uri: '{subj_uri}'}})
+        MERGE (predicate:{pred_uri} {{uri: '{pred_uri}'}})
+        MERGE (object:{obj_value} {{uri: '{obj_value}'}})
         MERGE (subject)-[:HAS_PROPERTY]->(predicate)
         MERGE (predicate)-[:HAS_OBJECT]->(object)
         """
