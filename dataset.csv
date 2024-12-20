@@ -1,0 +1,129 @@
+node1,relationship,node2
+Academic Degrees,shouldHave,Degrees in Business Admin
+Academic Degrees,shouldHave,Commerce
+Academic Degrees,shouldHave,Computer Apps
+Academic Degrees,shouldHave,Engineering
+Specializations,shouldHave,Business
+Specializations,shouldHave,Commerce
+Specializations,shouldHave,IT
+Specializations,shouldHave,Engineering
+Specializations,shouldHave,Law
+Educational Institutions,hasType,Universities
+Educational Institutions,hasType,Technical Colleges
+Educational University,includes,Recognized Universities
+Educational University,includes,Recognized Colleges
+Professional Certificates,includes,MS Office
+Professional Certificates,includes,CRM
+Professional Certificates,includes,Technical Platforms
+Work History,includes,Sales
+Work History,includes,Marketing
+Work History,includes,Retail
+Work History,includes,Banking
+Work History,includes,Technology
+Job Roles and Titles,includes,Sales Executive
+Job Roles and Titles,includes,Inside Sales
+Job Roles and Titles,includes,Business Development
+Job Roles and Titles,includes,Marketing Executive
+Company Types,includes,Private Sector
+Company Types,includes,Public Sector
+Company Types,includes,NGO Sector
+Industries,includes,Finance
+Industries,includes,Retail
+Industries,includes,Technology
+Industries,includes,Marketing
+Industries,includes,Banking
+Preferred Location,hasCharacteristic,Mostly urban centers
+Preferred Location,hasCharacteristic,willingness to relocate as per job requirement
+Geographical Locations,includes,Preferred Location
+Current Location,hasCharacteristic,Diverse
+Current Location,hasCharacteristic,covering major cities
+Current Location,hasCharacteristic,regions across India
+Geographical Locations,includes,Current Location
+Work Location,hasCharacteristic,office
+Work Location,hasCharacteristic,field
+Work Location,hasCharacteristic,remote jobs
+Geographical Locations,includes,Work Location
+Home Location,hasCharacteristic,Varied
+Home Location,hasCharacteristic,indicating flexibility in job location
+Geographical Locations,includes,Home Location
+Job Preference,includes,WFH
+Job Preference,includes,Office
+Job Preference,includes,Field Jobs
+WFH/Office/Field Jobs,hasOption,Work From Home
+WFH/Office/Field Jobs,hasOption,Office
+WFH/Office/Field Jobs,hasOption,Field Jobs
+WFH/Office/Field Jobs,hasOption,Mixed preferences
+Job Preference,includes,Part-time/Contract/Full-time
+Part-time/Contract/Full-time,hasOption,Full-time
+Part-time/Contract/Full-time,hasOption,Part-time
+Part-time/Contract/Full-time,hasOption,Contract roles
+Job Preference,includes,Shift Timings/Week off
+Shift Timings/Week off,hasOption,Flexible shift timings
+Shift Timings/Week off,hasOption,Rotational shifts
+Salary & Benefits,includes,Fixed/Variable Salary
+Fixed/Variable Salary,hasComponent,Fixed component
+Fixed/Variable Salary,hasComponent,Variable component
+Salary & Benefits,includes,Incentives/Allowances
+Incentives/Allowances,hasComponent,Transport allowance
+Incentives/Allowances,hasComponent,Food allowance
+Incentives/Allowances,hasComponent,Accommodation allowance
+Language Proficiency,hasLanguage,English
+Language Proficiency,hasLanguage,Hindi
+Language Proficiency,hasLanguage,Regional languages
+Two Wheeler/Laptops and Wi-Fi,requiresAsset,Laptop
+Laptop,hasRequirement,Required for job
+Two Wheeler/Laptops and Wi-Fi,requiresAsset,Two Wheeler
+Two Wheeler,hasRequirement,Required as per job needs
+Two Wheeler/Laptops and Wi-Fi,requiresAsset,Wi-Fi
+Wi-Fi,hasRequirement,Required for connectivity
+Technical Skills,hasSkill,CRM
+Technical Skills,hasSkill,MS Office
+Technical Skills,hasSkill,Database Management
+Technical Skills,hasSkill,Negotiation
+Skills and Competencies,includes,Soft Skills
+Soft Skills,hasSkill,Communication
+Soft Skills,hasSkill,Teamwork
+Soft Skills,hasSkill,Leadership
+Soft Skills,hasSkill,Adaptability
+Skills and Competencies,includes,Industry-Specific Knowledge
+Industry-Specific Knowledge,hasSkill,Sales Knowledge
+Industry-Specific Knowledge,hasSkill,Marketing Knowledge
+Industry-Specific Knowledge,hasSkill,Customer Service Knowledge
+Skills and Competencies,includes,Similar Roles
+Similar Roles,hasRole,Sales Representative
+Similar Roles,hasRole,Sales Consultant
+Similar Roles,hasRole,Sales Assistant
+Similar Roles,hasRole,Client Relationship Manager
+Similar Roles,hasRole,Sales Specialist
+Similar Roles,hasRole,Inside Sales Representative
+Sale Executive,requiresDegree,Academic Degrees
+Sale Executive,requires,Specializations
+Sale Executive,acceptsEducationFrom,Educational Institutions
+Sale Executive,recognizesInstitution,Educational University
+Sale Executive,requiresCertification,ProfessionalCertificates
+Sales Executive,requiresExperience,Work History
+Sales Executive,isPartOf,Job Roles and Titles
+Sales Executive,canWorkIn,Company Types
+Sales Executive,operatesIn,Industries
+Sales Executive,hasGeographicalContext,Geographical Locations
+Sales Executive,hasPreferredLocation,Preferred Location
+Sales Executive,considersLocation,Current Location
+Sales Executive,hasWorkplaceOption,Work Location
+Sales Executive,considersLocation,Home Location
+Sales Executive,hasWorkMode,WFH/Office/Field Jobs
+Sales Executive,hasPreference,Job Preference
+Sales Executive,hasEmploymentType,Part-time/Contract/Full-time
+Sales Executive,hasScheduleType,Shift Timings/Week off
+Sales Executive,hasCompensation,Salary & Benefits
+Sales Executive,hasCompensationStructure,Fixed/Variable Salary
+Sales Executive,includesBenefits,Incentives/Allowances
+Sales Executive,requiresProficiency,Language Proficiency
+Sales Executive,requiresAssets,Two Wheeler/Laptops and Wi-Fi
+Sales Executive,requiresAsset,Laptop
+Sales Executive,requiresAsset,Two Wheeler
+Sales Executive,requiresAsset,Wi-Fi
+Sales Executive,requiresSkills,Technical Skills
+Sales Executive,requiresCompetencies,Skills and Competencies
+Sales Executive,requiresSoftSkills,Soft Skills
+Sales Executive,requiresKnowledge,Industry-Specific Knowledge
+Sales Executive,hasRelatedRoles,Similar Roles
