@@ -33,6 +33,16 @@ query_mapping = {
         'MATCH (r:JobRole)-[:requiresEducation]->(q:Qualification) '
         'WHERE r.name = "RestaurantManager" '
         'RETURN DISTINCT r.name AS RoleName, q.name AS RequiredQualification'
+    ),
+    "What additional salary benefits you gets in role Sales Executive?":(
+        'MATCH (r:JobRole)-[:salaryBenefit]->(c:Compensation) '
+        'WHERE r.name = "SalesExecutive" '
+        'RETURN DISTINCT r.name AS RoleName, c.name AS CompensationDetails'
+    ),
+    "I have 1 year of experience in sales in local stores in my hometown in Ranchi, i am looking for some job in City  , what role i should apply for?":(
+        'MATCH (n:YearOfExperience)-[r:hasExperienceFor]->(m:JobRole) '
+        'WHERE n.name = "1YearsExperience" '
+        'RETURN DISTINCT n.name AS YearOfExperience ,m.name AS JobRole'
     )
 }
 
