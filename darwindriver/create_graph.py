@@ -39,11 +39,11 @@ query_mapping = {
         'WHERE r.name = "SalesExecutive" '
         'RETURN DISTINCT r.name AS RoleName, c.name AS CompensationDetails'
     ),
-    "hello": (
-    'MATCH (n:YearOfExperience)-[r:hasExperienceFor]->(m:JobRole) '
-    'WHERE n.name = "1YearsExperience" '
-    'RETURN DISTINCT n.name AS YearOfExperience, m.name AS JobRole'
-)
+    "hi": (
+        'MATCH (n:YearOfExperience)-[r:hasExperienceFor]->(m:JobRole) '
+        'WHERE n.name = "1YearsExperience" '
+        'RETURN DISTINCT n.name AS YearOfExperience, m.name AS JobRole'
+    )
 
 }
 
