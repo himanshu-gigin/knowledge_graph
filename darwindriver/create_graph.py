@@ -8,6 +8,19 @@ import random
 import os
 import create_graph
 import utils
+from fastapi.middleware.cors import CORSMiddleware
+
+
+
+
+# Add CORS Middleware
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # Allow all origins (you can restrict this in production)
+    allow_credentials=True,
+    allow_methods=["*"],  # Allow all HTTP methods
+    allow_headers=["*"],  # Allow all headers
+)
 
 
 
