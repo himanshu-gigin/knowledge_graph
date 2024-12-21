@@ -23,6 +23,19 @@ app.add_middleware(
 )
 
 
+query_mapping = {
+    "What is the required experience for the job role Cafe Lead Manager?": (
+        'MATCH (r:JobRole)-[:requiresExperience]->(exp:YearOfExperience) '
+        'WHERE r.name = "CafeLeadManager" '
+        'RETURN DISTINCT r.name AS RoleName, exp.name AS RequiredExperience'
+    ),
+    "What is the qualification required for Restaurant Manager?": (
+        'MATCH (r:JobRole)-[:requiresEducation]->(q:Qualification) '
+        'WHERE r.name = "RestaurantManager" '
+        'RETURN DISTINCT r.name AS RoleName, q.name AS RequiredQualification'
+    )
+}
+
 
 def connect_to_neo4j():
     driver = GraphDatabase.driver("bolt://localhost:7687", auth=("neo4j", "12345678"))
@@ -41,8 +54,10 @@ def connect_to_neo4j():
 def execute_query(query: str):
     driver = connect_to_neo4j()
     print(query)
+    if(query in query_mapping):
+        query = query_mapping[query]
     try:
-        with driver.session(database="hack") as session:
+        with driver.session(database="testingvv") as session:
             # Execute the query and fetch the results
             results = session.run(query)
             # Convert results to a list of dictionaries
@@ -55,7 +70,7 @@ def execute_query(query: str):
 
 
 
-@app.get("/create_indexes")
+@app.post("/create_indexes")
 def create_indexes(nodes: List[str]):
     for node in nodes:
         print(f'Creating index for {node}')
@@ -64,7 +79,7 @@ def create_indexes(nodes: List[str]):
 
 
 
-@app.get("/create_class_as_node")
+@app.post("/create_class_as_node")
 def create_class_as_node(CLASSNAMES:List[str]):
     for node in CLASSNAMES:
         print(f'Creating class as node for {node}')
@@ -72,7 +87,7 @@ def create_class_as_node(CLASSNAMES:List[str]):
         return execute_query(query)
 
 
-@app.get("/create_node_label")
+@app.post("/create_node_label")
 def create_node_label(classNode: str, node_name: str):
     query = f'CREATE (:{classNode} {{name: "{node_name}"}})'
     print(f"Creating node for {classNode}")
@@ -80,12 +95,13 @@ def create_node_label(classNode: str, node_name: str):
 
 
 
-@app.get("/create_relationship")
+@app.post("/create_relationship")
 def create_relationship(class1: str, node1_name: str, relationship: str, class2: str, node2_name: str):
     try:
         query = (
-            f'MATCH (p:{class1} {{name: "{node1_name}"}}), (o:{class2} {{name: "{node2_name}"}}) '
-            f'CREATE (p)-[:{relationship}]->(o)'
+             f'MATCH (p:{class1} {{name: "{node1_name}"}}) '
+    f'MATCH (o:{class2} {{name: "{node2_name}"}}) '
+    f'CREATE (p)-[:{relationship}]->(o)'
         )
         print(query, "query")
         print(f"Creating relationship for {node1_name} with {node2_name} as {relationship}")

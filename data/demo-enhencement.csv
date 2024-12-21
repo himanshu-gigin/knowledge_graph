@@ -1,0 +1,11 @@
+ClassForNodeOne,NodeOne,Relation,NodeTwo,ClassForNodeTwo
+Person,Alice,knows,Bob,Person
+Person,Bob,works_with,Charlie,Person
+Person,Charlie,lives_in,New York,City
+Company,TechCorp,employs,Alice,Person
+Company,InnovateLabs,competes_with,TechCorp,Company
+Product,Laptop,manufactured_by,TechCorp,Company
+Product,Smartphone,sold_by,InnovateLabs,Company
+Person,Bob,owns,Smartphone,Product
+Person,Charlie,interested_in,Laptop,Product
+City,New York,has_company,TechCorp,Company
