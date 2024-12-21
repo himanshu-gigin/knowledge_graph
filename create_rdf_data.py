@@ -1,8 +1,10 @@
+from rdflib import Graph
 from rdflib import Graph, Namespace, RDF, RDFS, URIRef, Literal
 import neo4j_client
 from rdflib_neo4j import Neo4jStoreConfig, Neo4jStore,HANDLE_VOCAB_URI_STRATEGY
-from rdflib import Graph
 
+# Create RDF Graph
+g = Graph()
 
 
 # Define namespaces
@@ -10,24 +12,6 @@ EX = Namespace("http://example.org/")
 SCHEMA = Namespace("http://schema.org/")
 
 
-
-
-# Create RDF Graph
-g = Graph()
-
-# Define Classes
-g.add((EX.JobRole, RDF.type, RDFS.Class))
-g.add((EX.Qualification, RDF.type, RDFS.Class))
-g.add((EX.Skill, RDF.type, RDFS.Class))
-
-# Define Properties
-g.add((EX.requiresSkill, RDF.type, RDF.Property))
-g.add((EX.requiresSkill, RDFS.domain, EX.JobRole))
-g.add((EX.requiresSkill, RDFS.range, EX.Skill))
-
-g.add((EX.name, RDF.type, RDF.Property))
-g.add((EX.name, RDFS.domain, SCHEMA.Thing))
-g.add((EX.name, RDFS.range, RDFS.Literal))
 
 # Add Instances and Data
 # JobRole Instances
@@ -60,27 +44,77 @@ g.add((sales_certification, RDF.type, EX.Qualification))
 g.add((sales_certification, EX.name, Literal("Professional Certification in Sales")))
 
 # Serialize RDF graph to Turtle format
-g.serialize("roles_v2.rdf", format="turtle")
+g.serialize("rdf_data.rdf", format="turtle")
 print(g.serialize(format="turtle"))
 
 
 
 
 
+driver = neo4j_client.connect_to_neo4j()
+def execute_query(query):
+    with driver.session() as session:
+        session.run(query)
 
-auth_data = {'uri': 'bolt://localhost:7687',
-             'database':"salesexecutivessss",
-             'user':"neo4j",
-             'pwd':AURA_DB_PWD}
+# execute_query("CREATE INDEX FOR (n:EXPERIENCE) ON (n.name)")
 
-config = Neo4jStoreConfig(auth_data=auth_data,
-                          custom_prefixes="hack",
-                          handle_vocab_uri_strategy=HANDLE_VOCAB_URI_STRATEGY.IGNORE,
-                          batching=True)
+execute_query('CREATE (:JobRole {JobRole: "JobRole"})')
 
-neo4j_aura = Graph(store=Neo4jStore(config=config))
-neo4j_aura.parse('roles_v2.rdf', format="turtle")
-neo4j_aura.close(True)
+# CREATE INDEX FOR (n:Person) ON (n.name);
+# CREATE INDEX FOR (n:Organization) ON (n.name);
+# CREATE INDEX FOR (n:Event) ON (n.name);
+
+# // Step 2.2: Create example ontology classes as nodes
+# CREATE (:Person {name: "Ontology_Class_Person"});
+# CREATE (:Organization {name: "Ontology_Class_Organization"});
+# CREATE (:Event {name: "Ontology_Class_Event"});
+
+
+# # Insert RDF Triples into Neo4j
+# def insert_rdf_to_neo4j(driver):
+#     g = Graph()
+#     g.parse('rdf_data.rdf', format="turtle")  # Assuming RDF/XML format
+
+#     # Iterate through all triples in the RDF graph and insert them into Neo4j
+#     with driver.session(database='abcd') as session:
+#         for subj, pred, obj in g:
+#             # Create nodes and relationships in Neo4j
+#             subj_uri = f"{subj.split('/')[-1]}"
+#             pred_uri = f"{pred.split('/')[-1]}"
+#             obj_value = str(obj.split('/')[-1])
+
+#             # Construct the Cypher query for inserting RDF triples
+#             query = f"""
+#         MERGE (subject:Resource {{uri: '{subj_uri}'}})
+#         MERGE (predicate:Property {{uri: '{pred_uri}'}})
+#         MERGE (object:Resource {{uri: '{obj_value}'}})
+#         MERGE (subject)-[:HAS_PROPERTY]->(predicate)
+#         MERGE (predicate)-[:HAS_OBJECT]->(object)
+#         """
+#             session.run(query)
+#             print(f"Inserted Triple: ({subj_uri}, {pred_uri}, {obj_value})")
+    
+
+# driver = neo4j_client.connect_to_neo4j()
+# insert_rdf_to_neo4j(driver)
+
+
+
+
+
+# auth_data = {'uri': 'bolt://localhost:7687',
+#              'database':"salesexecutivessss",
+#              'user':"neo4j",
+#              'pwd':"AURA_DB_PWD"}
+
+# config = Neo4jStoreConfig(auth_data=auth_data,
+#                           custom_prefixes="hack",
+#                           handle_vocab_uri_strategy=HANDLE_VOCAB_URI_STRATEGY.IGNORE,
+#                           batching=True)
+
+# neo4j_aura = Graph(store=Neo4jStore(config=config))
+# neo4j_aura.parse('roles_v2.rdf', format="turtle")
+# neo4j_aura.close(True)
 
 
 

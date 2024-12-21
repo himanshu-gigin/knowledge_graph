@@ -1,0 +1,115 @@
+Sales Executive → requiresSkill → CRM
+Sales Executive → requiresSkill → Negotiation Skills
+CRM → name → "Customer Relationship Management"
+Negotiation Skills → name → "Negotiation Skills"
+Degree in Business Administration → name → "Degree in Business Administration"
+Professional Certification in Sales → name → "Professional Certification in Sales"
+Degree in Business Administration → belongsTo → "Educational Background"
+CRM → belongsTo → "Skills and Competencies"
+Negotiation Skills → belongsTo → "Skills and Competencies"
+Sales Executive → belongsTo → "Role"
+Sales Executive → worksIn → "Sales, Marketing, Retail, Banking, and Technology"
+Sales Executive → worksAt → "Private, Public, NGO"
+Sales Executive → requiresLocation → "Mostly urban centers, willingness to relocate"
+Degree in Business Administration → requiresInstitution → "Recognized universities and colleges"
+Sales Executive → receivesSalary → "20,000-30,000 PM"
+Sales Executive → receivesAllowance → "Transport, food, accommodation"
+Sales Executive → proficiencyIn → "English, Hindi, regional languages"
+Sales Executive → requiresAsset → "Two-Wheeler, Laptops and Wi-Fi"
+Sales Executive → worksType → "Full-time, Part-time, contract roles"
+Sales Executive → worksShift → "Rotational shifts, Fixed Shift, and Night shift"
+Sales Executive → prefersWorkType → "WFH, office, or field jobs"
+
+
+
+jobRole 
+Skills 
+Qualification
+YearOfExperience
+Industry
+CompanyType
+GeographicalLocation
+EducationalInstitution
+Proficiency
+Assets
+Compensation
+WorkType
+WorkShift
+Gender
+
+
+
+
+// Cafe Manager 
+
+Cafe Lead Manager → requiresSkill → Food Preparation
+Cafe Lead Manager → requiresSkill → Leadership Skills
+Cafe Lead Manager → requiresSkill → POS Systems
+Cafe Lead Manager → requiresSkill → Inventory Management
+Cafe Lead Manager → requiresSkill → Customer Service
+Cafe Lead Manager → requiresSkill → Communication
+Cafe Lead Manager → requiresIndustryKnowledge → Food and Beverage Operations
+Cafe Lead Manager → requiresIndustryKnowledge → Customer Handling
+Cafe Lead Manager → requiresIndustryKnowledge → Safety Standards
+Cafe Lead Manager → requiresLocation → "Urban centers, flexibility for relocation"
+Cafe Lead Manager → worksIn → "Hospitality, Food Service, Retail, Fast Food Chains"
+Cafe Lead Manager → worksAt → "Private sector, experienced candidates for Public and NGO"
+Cafe Lead Manager → belongsTo → "Role"
+Cafe Lead Manager → worksType → "Office jobs"
+Cafe Lead Manager → worksShift → "Day Shift, Night Shift, Rotational Shift"
+Cafe Lead Manager → receivesSalary → "25K - 30K per month"
+Cafe Lead Manager → receivesAllowance → "PF, Insurance"
+Cafe Lead Manager → proficiencyIn → "English, Tamil, Hindi, Regional language"
+Cafe Lead Manager → requiresAsset → "Two-Wheeler"
+Cafe Lead Manager → worksType → "Full-time, Part-time"
+Cafe Lead Manager → prefersGender → "Male, Female"
+Cafe Lead Manager → similarRoles → "Cafe Manager, Restaurant Manager, Assistant Manager, Food and Beverage Manager"
+Degree in Hotel Management → name → "Degree in Hotel Management"
+Degree in Business → name → "Degree in Business"
+Degree in Economics → name → "Degree in Economics"
+Degree in Engineering → name → "Degree in Engineering"
+Skills in Food Preparation → name → "Food Preparation"
+Skills in Leadership → name → "Leadership Skills"
+Skills in POS Systems → name → "POS Systems"
+Skills in Inventory Management → name → "Inventory Management"
+Customer Service → name → "Customer Service"
+Communication → name → "Communication"
+Food and Beverage Operations → name → "Food and Beverage Operations"
+Customer Handling → name → "Customer Handling"
+Safety Standards → name → "Safety Standards"
+
+
+// Filed Sales Executive
+
+Filed Sales Executive → requiresSkill → Sales
+Filed Sales Executive → requiresSkill → Negotiation Skills
+Filed Sales Executive → requiresSkill → Sales Management
+Filed Sales Executive → requiresSkill → Sales Strategy
+Filed Sales Executive → requiresSkill → Sales Forecasting
+Field Sales Executive → requiresSkill → CRM Usage
+Field Sales Executive → requiresSkill → Sales Reporting
+Field Sales Executive → requiresSkill → Market Analysis
+Field Sales Executive → requiresSkill → Lead Generation Tools
+Field Sales Executive → requiresSoftSkill → Strong Communication
+Field Sales Executive → requiresSoftSkill → Persuasive Abilities
+Field Sales Executive → requiresSoftSkill → Customer Relations
+Field Sales Executive → requiresSoftSkill → Emotional Intelligence
+Field Sales Executive → requiresIndustryKnowledge → Market Dynamics
+Field Sales Executive → requiresIndustryKnowledge → Customer Engagement
+Field Sales Executive → belongsTo → "Role"
+Field Sales Executive → worksIn → "Banking, Technology, Retail, FMCG, Pharmaceuticals, Consumer Electronics, Telecommunications"
+Field Sales Executive → worksAt → "Startups, Established Firms"
+Field Sales Executive → worksType → "Field Job, Office Job"
+Field Sales Executive → worksShift → "Day Shift"
+Field Sales Executive → receivesSalary → "20,000 per month"
+Field Sales Executive → receivesAllowance → "Travel Allowance, Petrol Allowance"
+Field Sales Executive → receivesOtherBenefits → "ESI, PF, Insurance"
+Field Sales Executive → proficiencyIn → "English, Kannada, Hindi, Tamil, Telugu"
+Field Sales Executive → requiresAsset → "Two-Wheeler, License"
+Field Sales Executive → prefersGender → "Male"
+Degree in Business → name → "Degree in Business"
+Degree in Commerce → name → "Degree in Commerce"
+Degree in IT → name → "Degree in IT"
+Degree in Economics → name → "Degree in Economics"
+CRM Usage → name → "Customer Relationship Management Usage"
+

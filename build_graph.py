@@ -65,9 +65,9 @@ def insert_rdf_to_neo4j(driver, rdf_file_path):
 
             # Construct the Cypher query for inserting RDF triples
             query = f"""
-        MERGE (subject:{subj_uri} {{uri: '{subj_uri}'}})
-        MERGE (predicate:{pred_uri} {{uri: '{pred_uri}'}})
-        MERGE (object:{obj_value} {{uri: '{obj_value}'}})
+        MERGE (subject:Resource {{uri: '{subj_uri}'}})
+        MERGE (predicate:Property {{uri: '{pred_uri}'}})
+        MERGE (object:Resource {{uri: '{obj_value}'}})
         MERGE (subject)-[:HAS_PROPERTY]->(predicate)
         MERGE (predicate)-[:HAS_OBJECT]->(object)
         """

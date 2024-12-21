@@ -1,0 +1,207 @@
+NodeOne,Relation,NodeTwo,NodeClass
+Field Sales Executive,requiresSkill,CRM Usage
+Field Sales Executive,requiresSkill,Sales Reporting
+Field Sales Executive,requiresSkill,Market Analysis
+Field Sales Executive,requiresSkill,POS Systems
+Field Sales Executive,requiresSkill,Lead Generation Tools
+Field Sales Executive,requiresSkill,Strong Communication
+Field Sales Executive,requiresSkill,Persuasive Abilities
+Field Sales Executive,requiresSkill,Customer Relations
+Field Sales Executive,requiresSkill,Emotional Intelligence
+Field Sales Executive,requiresIndustryKnowledge,Deep Understanding of Market Dynamics
+Field Sales Executive,requiresIndustryKnowledge,Customer Engagement
+Field Sales Executive,belongsToIndustry,Banking
+Field Sales Executive,belongsToIndustry,Technology
+Field Sales Executive,belongsToIndustry,Retail
+Field Sales Executive,belongsToIndustry,FMCG
+Field Sales Executive,belongsToIndustry,Pharmaceuticals
+Field Sales Executive,belongsToIndustry,Consumer Electronics
+Field Sales Executive,belongsToIndustry,Telecommunications
+Field Sales Executive,belongsToCompanyType,Startups
+Field Sales Executive,belongsToCompanyType,Reputed Company
+Field Sales Executive,requiresEducation,Graduate
+Field Sales Executive,requiresFieldOfStudy,Business
+Field Sales Executive,requiresFieldOfStudy,Commerce
+Field Sales Executive,requiresFieldOfStudy,IT
+Field Sales Executive,requiresFieldOfStudy,Economics
+Field Sales Executive,requiresJobPreference,Field Jobs
+Field Sales Executive,requiresContractType,Full-time
+Field Sales Executive,requiresContractType,Part-time
+Field Sales Executive,requiresContractType,Contract
+Field Sales Executive,requiresShift,Day Shift
+Field Sales Executive,salaryBenefit,Incentives
+Field Sales Executive,salaryBenefit,ESI
+Field Sales Executive,salaryBenefit,PF
+Field Sales Executive,salaryBenefit,Insurance
+Field Sales Executive,salaryBenefit,Travel Allowance
+Field Sales Executive,salaryBenefit,Petrol Allowance
+Field Sales Executive,genderPreference,Male
+Field Sales Executive,requiresLocation,Metro City
+Field Sales Executive,requiresLocation,Open to Relocation Across India
+Field Sales Executive,requiresExperience,1+ Years Experience
+Field Sales Executive,assetRequired,Two-Wheeler
+Field Sales Executive,assetRequired,License
+Field Sales Executive,similarRole,Area Sales Executive
+Field Sales Executive,similarRole,Field Marketing Executive
+Field Sales Executive,similarRole,Business Development Executive
+Field Sales Executive,similarRole,Territory Sales Manager
+Area Sales Executive,requiresSkill,CRM Usage
+Area Sales Executive,requiresSkill,Sales Reporting
+Area Sales Executive,requiresSkill,Market Analysis
+Area Sales Executive,requiresSkill,POS Systems
+Area Sales Executive,requiresSkill,Lead Generation Tools
+Area Sales Executive,requiresSkill,Strong Communication
+Area Sales Executive,requiresSkill,Persuasive Abilities
+Area Sales Executive,requiresSkill,Customer Relations
+Area Sales Executive,requiresSkill,Emotional Intelligence
+Area Sales Executive,belongsToIndustry,Banking
+Area Sales Executive,belongsToIndustry,Technology
+Area Sales Executive,belongsToIndustry,Retail
+Area Sales Executive,belongsToIndustry,FMCG
+Area Sales Executive,belongsToIndustry,Pharmaceuticals
+Area Sales Executive,belongsToIndustry,Consumer Electronics
+Area Sales Executive,belongsToIndustry,Telecommunications
+Area Sales Executive,belongsToCompanyType,Startups
+Area Sales Executive,belongsToCompanyType,Reputed Company
+Area Sales Executive,requiresEducation,Graduate
+Area Sales Executive,requiresFieldOfStudy,Business
+Area Sales Executive,requiresFieldOfStudy,Commerce
+Area Sales Executive,requiresFieldOfStudy,IT
+Area Sales Executive,requiresFieldOfStudy,Economics
+Area Sales Executive,requiresJobPreference,Field Jobs
+Area Sales Executive,requiresContractType,Full-time
+Area Sales Executive,requiresContractType,Part-time
+Area Sales Executive,requiresContractType,Contract
+Area Sales Executive,requiresShift,Day Shift
+Area Sales Executive,salaryBenefit,Incentives
+Area Sales Executive,salaryBenefit,ESI
+Area Sales Executive,salaryBenefit,PF
+Area Sales Executive,salaryBenefit,Insurance
+Area Sales Executive,salaryBenefit,Travel Allowance
+Area Sales Executive,salaryBenefit,Petrol Allowance
+Area Sales Executive,genderPreference,Male
+Area Sales Executive,requiresLocation,Metro City
+Area Sales Executive,requiresLocation,Open to Relocation Across India
+Area Sales Executive,requiresExperience,1+ Years Experience
+Area Sales Executive,assetRequired,Two-Wheeler
+Area Sales Executive,assetRequired,License
+Field Marketing Executive,requiresSkill,CRM Usage
+Field Marketing Executive,requiresSkill,Sales Reporting
+Field Marketing Executive,requiresSkill,Market Analysis
+Field Marketing Executive,requiresSkill,POS Systems
+Field Marketing Executive,requiresSkill,Lead Generation Tools
+Field Marketing Executive,requiresSkill,Strong Communication
+Field Marketing Executive,requiresSkill,Persuasive Abilities
+Field Marketing Executive,requiresSkill,Customer Relations
+Field Marketing Executive,requiresSkill,Emotional Intelligence
+Field Marketing Executive,belongsToIndustry,Banking
+Field Marketing Executive,belongsToIndustry,Technology
+Field Marketing Executive,belongsToIndustry,Retail
+Field Marketing Executive,belongsToIndustry,FMCG
+Field Marketing Executive,belongsToIndustry,Pharmaceuticals
+Field Marketing Executive,belongsToIndustry,Consumer Electronics
+Field Marketing Executive,belongsToIndustry,Telecommunications
+Field Marketing Executive,belongsToCompanyType,Startups
+Field Marketing Executive,belongsToCompanyType,Reputed Company
+Field Marketing Executive,requiresEducation,Graduate
+Field Marketing Executive,requiresFieldOfStudy,Business
+Field Marketing Executive,requiresFieldOfStudy,Commerce
+Field Marketing Executive,requiresFieldOfStudy,IT
+Field Marketing Executive,requiresFieldOfStudy,Economics
+Field Marketing Executive,requiresJobPreference,Field Jobs
+Field Marketing Executive,requiresContractType,Full-time
+Field Marketing Executive,requiresContractType,Part-time
+Field Marketing Executive,requiresContractType,Contract
+Field Marketing Executive,requiresShift,Day Shift
+Field Marketing Executive,salaryBenefit,Incentives
+Field Marketing Executive,salaryBenefit,ESI
+Field Marketing Executive,salaryBenefit,PF
+Field Marketing Executive,salaryBenefit,Insurance
+Field Marketing Executive,salaryBenefit,Travel Allowance
+Field Marketing Executive,salaryBenefit,Petrol Allowance
+Field Marketing Executive,genderPreference,Male
+Field Marketing Executive,requiresLocation,Metro City
+Field Marketing Executive,requiresLocation,Open to Relocation Across India
+Field Marketing Executive,requiresExperience,1+ Years Experience
+Field Marketing Executive,assetRequired,Two-Wheeler
+Field Marketing Executive,assetRequired,License
+Business Development Executive,requiresSkill,CRM Usage
+Business Development Executive,requiresSkill,Sales Reporting
+Business Development Executive,requiresSkill,Market Analysis
+Business Development Executive,requiresSkill,POS Systems
+Business Development Executive,requiresSkill,Lead Generation Tools
+Business Development Executive,requiresSkill,Strong Communication
+Business Development Executive,requiresSkill,Persuasive Abilities
+Business Development Executive,requiresSkill,Customer Relations
+Business Development Executive,requiresSkill,Emotional Intelligence
+Business Development Executive,belongsToIndustry,Banking
+Business Development Executive,belongsToIndustry,Technology
+Business Development Executive,belongsToIndustry,Retail
+Business Development Executive,belongsToIndustry,FMCG
+Business Development Executive,belongsToIndustry,Pharmaceuticals
+Business Development Executive,belongsToIndustry,Consumer Electronics
+Business Development Executive,belongsToIndustry,Telecommunications
+Business Development Executive,belongsToCompanyType,Startups
+Business Development Executive,belongsToCompanyType,Reputed Company
+Business Development Executive,requiresEducation,Graduate
+Business Development Executive,requiresFieldOfStudy,Business
+Business Development Executive,requiresFieldOfStudy,Commerce
+Business Development Executive,requiresFieldOfStudy,IT
+Business Development Executive,requiresFieldOfStudy,Economics
+Business Development Executive,requiresJobPreference,Field Jobs
+Business Development Executive,requiresContractType,Full-time
+Business Development Executive,requiresContractType,Part-time
+Business Development Executive,requiresContractType,Contract
+Business Development Executive,requiresShift,Day Shift
+Business Development Executive,salaryBenefit,Incentives
+Business Development Executive,salaryBenefit,ESI
+Business Development Executive,salaryBenefit,PF
+Business Development Executive,salaryBenefit,Insurance
+Business Development Executive,salaryBenefit,Travel Allowance
+Business Development Executive,salaryBenefit,Petrol Allowance
+Business Development Executive,genderPreference,Male
+Business Development Executive,requiresLocation,Metro City
+Business Development Executive,requiresLocation,Open to Relocation Across India
+Business Development Executive,requiresExperience,1+ Years Experience
+Business Development Executive,assetRequired,Two-Wheeler
+Business Development Executive,assetRequired,License
+Territory Sales Manager,requiresSkill,CRM Usage
+Territory Sales Manager,requiresSkill,Sales Reporting
+Territory Sales Manager,requiresSkill,Market Analysis
+Territory Sales Manager,requiresSkill,POS Systems
+Territory Sales Manager,requiresSkill,Lead Generation Tools
+Territory Sales Manager,requiresSkill,Strong Communication
+Territory Sales Manager,requiresSkill,Persuasive Abilities
+Territory Sales Manager,requiresSkill,Customer Relations
+Territory Sales Manager,requiresSkill,Emotional Intelligence
+Territory Sales Manager,belongsToIndustry,Banking
+Territory Sales Manager,belongsToIndustry,Technology
+Territory Sales Manager,belongsToIndustry,Retail
+Territory Sales Manager,belongsToIndustry,FMCG
+Territory Sales Manager,belongsToIndustry,Pharmaceuticals
+Territory Sales Manager,belongsToIndustry,Consumer Electronics
+Territory Sales Manager,belongsToIndustry,Telecommunications
+Territory Sales Manager,belongsToCompanyType,Startups
+Territory Sales Manager,belongsToCompanyType,Reputed Company
+Territory Sales Manager,requiresEducation,Graduate
+Territory Sales Manager,requiresFieldOfStudy,Business
+Territory Sales Manager,requiresFieldOfStudy,Commerce
+Territory Sales Manager,requiresFieldOfStudy,IT
+Territory Sales Manager,requiresFieldOfStudy,Economics
+Territory Sales Manager,requiresJobPreference,Field Jobs
+Territory Sales Manager,requiresContractType,Full-time
+Territory Sales Manager,requiresContractType,Part-time
+Territory Sales Manager,requiresContractType,Contract
+Territory Sales Manager,requiresShift,Day Shift
+Territory Sales Manager,salaryBenefit,Incentives
+Territory Sales Manager,salaryBenefit,ESI
+Territory Sales Manager,salaryBenefit,PF
+Territory Sales Manager,salaryBenefit,Insurance
+Territory Sales Manager,salaryBenefit,Travel Allowance
+Territory Sales Manager,salaryBenefit,Petrol Allowance
+Territory Sales Manager,genderPreference,Male
+Territory Sales Manager,requiresLocation,Metro City
+Territory Sales Manager,requiresLocation,Open to Relocation Across India
+Territory Sales Manager,requiresExperience,1+ Years Experience
+Territory Sales Manager,assetRequired,Two-Wheeler
+Territory Sales Manager,assetRequired,License

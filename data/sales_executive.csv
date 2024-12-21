@@ -1,0 +1,222 @@
+NodeOne,Relation,NodeTwo,NodeClass
+ Sales Executive, requiresSkill, CRM
+ Sales Executive, requiresSkill, Negotiation Skills
+ Sales Executive, requiresSkill, MS Office
+ Sales Executive, requiresSkill, Database Management
+ Sales Executive, requiresSkill, Communication Skills
+ Sales Executive, requiresSkill, Problem Solving
+ Sales Executive, belongsToIndustry, Finance
+ Sales Executive, belongsToIndustry, Retail
+ Sales Executive, belongsToIndustry, IT Sales
+ Sales Executive, belongsToIndustry, Banking
+ Sales Executive, belongsToIndustry, Wholesale and Distribution
+ Sales Executive, belongsToIndustry, B2B Sales
+ Sales Executive, belongsToIndustry, Consumer Goods and FMCG
+ Sales Executive, belongsToIndustry, Telecommunications
+ Sales Executive, belongsToIndustry, Construction and Building Materials
+ Sales Executive, belongsToIndustry, Education and Training
+ Sales Executive, belongsToIndustry, Hospitality Industry
+ Sales Executive, belongsToIndustry, Pharmaceutical Industry
+ Sales Executive, belongsToIndustry, Automotive Industry
+ Sales Executive, belongsToIndustry, Real Estate
+ Sales Executive, belongsToIndustry, Luxury Goods
+ Sales Executive, belongsToIndustry, Travel and Tourism
+ Sales Executive, belongsToIndustry, Entertainment and Media
+ Sales Executive, belongsToIndustry, Security Services
+ Sales Executive, belongsToIndustry, Sports and Recreation
+ Sales Executive, belongsToIndustry, Human Resources and Recruitment
+ Sales Executive, requiresJobPreference, WFH
+ Sales Executive, requiresJobPreference, Office
+ Sales Executive, requiresJobPreference, Field Jobs
+ Sales Executive, requiresContractType, Full-time
+ Sales Executive, requiresContractType, Part-time
+ Sales Executive, requiresContractType, Contract roles
+ Sales Executive, requiresShift, Rotational shifts
+ Sales Executive, requiresShift, Fixed Shift
+ Sales Executive, requiresShift, Night shift
+ Sales Executive, languageProficiency, English
+ Sales Executive, languageProficiency, Hindi
+ Sales Executive, languageProficiency, Regional languages
+ Sales Executive, salaryBenefit, Performance-based incentives
+ Sales Executive, salaryBenefit, Transport Allowance
+ Sales Executive, salaryBenefit, Food Allowance
+ Sales Executive, salaryBenefit, Accommodation Allowance
+ Sales Executive, salaryBenefit, GYM Memberships
+ Sales Executive, salaryBenefit, OTT Subscription
+ Inside Sales, requiresSkill, CRM
+ Inside Sales, requiresSkill, Negotiation Skills
+ Inside Sales, requiresSkill, MS Office
+ Inside Sales, requiresSkill, Database Management
+ Inside Sales, requiresSkill, Communication Skills
+ Inside Sales, requiresSkill, Problem Solving
+ Inside Sales, belongsToIndustry, Finance
+ Inside Sales, belongsToIndustry, Retail
+ Inside Sales, belongsToIndustry, IT Sales
+ Inside Sales, belongsToIndustry, Banking
+ Inside Sales, belongsToIndustry, Wholesale and Distribution
+ Inside Sales, belongsToIndustry, B2B Sales
+ Inside Sales, belongsToIndustry, Consumer Goods and FMCG
+ Inside Sales, belongsToIndustry, Telecommunications
+ Inside Sales, belongsToIndustry, Construction and Building Materials
+ Inside Sales, belongsToIndustry, Education and Training
+ Inside Sales, belongsToIndustry, Hospitality Industry
+ Inside Sales, belongsToIndustry, Pharmaceutical Industry
+ Inside Sales, belongsToIndustry, Automotive Industry
+ Inside Sales, belongsToIndustry, Real Estate
+ Inside Sales, belongsToIndustry, Luxury Goods
+ Inside Sales, belongsToIndustry, Travel and Tourism
+ Inside Sales, belongsToIndustry, Entertainment and Media
+ Inside Sales, belongsToIndustry, Security Services
+ Inside Sales, belongsToIndustry, Sports and Recreation
+ Inside Sales, belongsToIndustry, Human Resources and Recruitment
+ Inside Sales, requiresJobPreference, WFH
+ Inside Sales, requiresJobPreference, Office
+ Inside Sales, requiresJobPreference, Field Jobs
+ Inside Sales, requiresContractType, Full-time
+ Inside Sales, requiresContractType, Part-time
+ Inside Sales, requiresContractType, Contract roles
+ Inside Sales, requiresShift, Rotational shifts
+ Inside Sales, requiresShift, Fixed Shift
+ Inside Sales, requiresShift, Night shift
+ Inside Sales, languageProficiency, English
+ Inside Sales, languageProficiency, Hindi
+ Inside Sales, languageProficiency, Regional languages
+ Inside Sales, salaryBenefit, Performance-based incentives
+ Inside Sales, salaryBenefit, Transport Allowance
+ Inside Sales, salaryBenefit, Food Allowance
+ Inside Sales, salaryBenefit, Accommodation Allowance
+ Inside Sales, salaryBenefit, GYM Memberships
+ Inside Sales, salaryBenefit, OTT Subscription
+ Sales Representative, requiresSkill, CRM
+ Sales Representative, requiresSkill, Negotiation Skills
+ Sales Representative, requiresSkill, MS Office
+ Sales Representative, requiresSkill, Database Management
+ Sales Representative, requiresSkill, Communication Skills
+ Sales Representative, requiresSkill, Problem Solving
+ Sales Representative, belongsToIndustry, Finance
+ Sales Representative, belongsToIndustry, Retail
+ Sales Representative, belongsToIndustry, IT Sales
+ Sales Representative, belongsToIndustry, Banking
+ Sales Representative, belongsToIndustry, Wholesale and Distribution
+ Sales Representative, belongsToIndustry, B2B Sales
+ Sales Representative, belongsToIndustry, Consumer Goods and FMCG
+ Sales Representative, belongsToIndustry, Telecommunications
+ Sales Representative, belongsToIndustry, Construction and Building Materials
+ Sales Representative, belongsToIndustry, Education and Training
+ Sales Representative, belongsToIndustry, Hospitality Industry
+ Sales Representative, belongsToIndustry, Pharmaceutical Industry
+ Sales Representative, belongsToIndustry, Automotive Industry
+ Sales Representative, belongsToIndustry, Real Estate
+ Sales Representative, belongsToIndustry, Luxury Goods
+ Sales Representative, belongsToIndustry, Travel and Tourism
+ Sales Representative, belongsToIndustry, Entertainment and Media
+ Sales Representative, belongsToIndustry, Security Services
+ Sales Representative, belongsToIndustry, Sports and Recreation
+ Sales Representative, belongsToIndustry, Human Resources and Recruitment
+ Sales Representative, requiresJobPreference, WFH
+ Sales Representative, requiresJobPreference, Office
+ Sales Representative, requiresJobPreference, Field Jobs
+ Sales Representative, requiresContractType, Full-time
+ Sales Representative, requiresContractType, Part-time
+ Sales Representative, requiresContractType, Contract roles
+ Sales Representative, requiresShift, Rotational shifts
+ Sales Representative, requiresShift, Fixed Shift
+ Sales Representative, requiresShift, Night shift
+ Sales Representative, languageProficiency, English
+ Sales Representative, languageProficiency, Hindi
+ Sales Representative, languageProficiency, Regional languages
+ Sales Representative, salaryBenefit, Performance-based incentives
+ Sales Representative, salaryBenefit, Transport Allowance
+ Sales Representative, salaryBenefit, Food Allowance
+ Sales Representative, salaryBenefit, Accommodation Allowance
+ Sales Representative, salaryBenefit, GYM Memberships
+ Sales Representative, salaryBenefit, OTT Subscription
+ Sales Consultant, requiresSkill, CRM
+ Sales Consultant, requiresSkill, Negotiation Skills
+ Sales Consultant, requiresSkill, MS Office
+ Sales Consultant, requiresSkill, Database Management
+ Sales Consultant, requiresSkill, Communication Skills
+ Sales Consultant, requiresSkill, Problem Solving
+ Sales Consultant, belongsToIndustry, Finance
+ Sales Consultant, belongsToIndustry, Retail
+ Sales Consultant, belongsToIndustry, IT Sales
+ Sales Consultant, belongsToIndustry, Banking
+ Sales Consultant, belongsToIndustry, Wholesale and Distribution
+ Sales Consultant, belongsToIndustry, B2B Sales
+ Sales Consultant, belongsToIndustry, Consumer Goods and FMCG
+ Sales Consultant, belongsToIndustry, Telecommunications
+ Sales Consultant, belongsToIndustry, Construction and Building Materials
+ Sales Consultant, belongsToIndustry, Education and Training
+ Sales Consultant, belongsToIndustry, Hospitality Industry
+ Sales Consultant, belongsToIndustry, Pharmaceutical Industry
+ Sales Consultant, belongsToIndustry, Automotive Industry
+ Sales Consultant, belongsToIndustry, Real Estate
+ Sales Consultant, belongsToIndustry, Luxury Goods
+ Sales Consultant, belongsToIndustry, Travel and Tourism
+ Sales Consultant, belongsToIndustry, Entertainment and Media
+ Sales Consultant, belongsToIndustry, Security Services
+ Sales Consultant, belongsToIndustry, Sports and Recreation
+ Sales Consultant, belongsToIndustry, Human Resources and Recruitment
+ Sales Consultant, requiresJobPreference, WFH
+ Sales Consultant, requiresJobPreference, Office
+ Sales Consultant, requiresJobPreference, Field Jobs
+ Sales Consultant, requiresContractType, Full-time
+ Sales Consultant, requiresContractType, Part-time
+ Sales Consultant, requiresContractType, Contract roles
+ Sales Consultant, requiresShift, Rotational shifts
+ Sales Consultant, requiresShift, Fixed Shift
+ Sales Consultant, requiresShift, Night shift
+ Sales Consultant, languageProficiency, English
+ Sales Consultant, languageProficiency, Hindi
+ Sales Consultant, languageProficiency, Regional languages
+ Sales Consultant, salaryBenefit, Performance-based incentives
+ Sales Consultant, salaryBenefit, Transport Allowance
+ Sales Consultant, salaryBenefit, Food Allowance
+ Sales Consultant, salaryBenefit, Accommodation Allowance
+ Sales Consultant, salaryBenefit, GYM Memberships
+ Sales Consultant, salaryBenefit, OTT Subscription
+ Sales Coordinator, requiresSkill, CRM
+ Sales Coordinator, requiresSkill, Negotiation Skills
+ Sales Coordinator, requiresSkill, MS Office
+ Sales Coordinator, requiresSkill, Database Management
+ Sales Coordinator, requiresSkill, Communication Skills
+ Sales Coordinator, requiresSkill, Problem Solving
+ Sales Coordinator, belongsToIndustry, Finance
+ Sales Coordinator, belongsToIndustry, Retail
+ Sales Coordinator, belongsToIndustry, IT Sales
+ Sales Coordinator, belongsToIndustry, Banking
+ Sales Coordinator, belongsToIndustry, Wholesale and Distribution
+ Sales Coordinator, belongsToIndustry, B2B Sales
+ Sales Coordinator, belongsToIndustry, Consumer Goods and FMCG
+ Sales Coordinator, belongsToIndustry, Telecommunications
+ Sales Coordinator, belongsToIndustry, Construction and Building Materials
+ Sales Coordinator, belongsToIndustry, Education and Training
+ Sales Coordinator, belongsToIndustry, Hospitality Industry
+ Sales Coordinator, belongsToIndustry, Pharmaceutical Industry
+ Sales Coordinator, belongsToIndustry, Automotive Industry
+ Sales Coordinator, belongsToIndustry, Real Estate
+ Sales Coordinator, belongsToIndustry, Luxury Goods
+ Sales Coordinator, belongsToIndustry, Travel and Tourism
+ Sales Coordinator, belongsToIndustry, Entertainment and Media
+ Sales Coordinator, belongsToIndustry, Security Services
+ Sales Coordinator, belongsToIndustry, Sports and Recreation
+ Sales Coordinator, belongsToIndustry, Human Resources and Recruitment
+ Sales Coordinator, requiresJobPreference, WFH
+ Sales Coordinator, requiresJobPreference, Office
+ Sales Coordinator, requiresJobPreference, Field Jobs
+ Sales Coordinator, requiresContractType, Full-time
+ Sales Coordinator, requiresContractType, Part-time
+ Sales Coordinator, requiresContractType, Contract roles
+ Sales Coordinator, requiresShift, Rotational shifts
+ Sales Coordinator, requiresShift, Fixed Shift
+ Sales Coordinator, requiresShift, Night shift
+ Sales Coordinator, languageProficiency, English
+ Sales Coordinator, languageProficiency, Hindi
+ Sales Coordinator, languageProficiency, Regional languages
+ Sales Coordinator, salaryBenefit, Performance-based incentives
+ Sales Coordinator, salaryBenefit, Transport Allowance
+ Sales Coordinator, salaryBenefit, Food Allowance
+ Sales Coordinator, salaryBenefit, Accommodation Allowance
+ Sales Coordinator, salaryBenefit, GYM Memberships
+ Sales Coordinator, salaryBenefit, OTT Subscription
+ Sales Executive, similarRole, Inside Sales

@@ -1,0 +1,221 @@
+NodeOne,Relation,NodeTwo,NodeClass
+Sales Executive,requiresSkill,CRM,Skills 
+Sales Executive,requiresSkill,Negotiation Skills,Skills
+Sales Executive,requiresSkill,MS Office,Skills
+Sales Executive,requiresSkill,Database Management,Skills
+Sales Executive,requiresSkill,Communication Skills,Skills
+Sales Executive,requiresSkill,Problem Solving,Skills
+Sales Executive,belongsToIndustry,Finance,Industry
+Sales Executive,belongsToIndustry,Retail,Industry
+Sales Executive,belongsToIndustry,IT Sales,Industry
+Sales Executive,belongsToIndustry,Banking,Industry
+Sales Executive,belongsToIndustry,Wholesale and Distribution,Industry
+Sales Executive,belongsToIndustry,B2B Sales,Industry
+Sales Executive,belongsToIndustry,Consumer Goods and FMCG,Industry
+Sales Executive,belongsToIndustry,Telecommunications,Industry
+Sales Executive,belongsToIndustry,Construction and Building Materials,Industry
+Sales Executive,belongsToIndustry,Education and Training,Industry
+Sales Executive,belongsToIndustry,Hospitality Industry,Industry
+Sales Executive,belongsToIndustry,Pharmaceutical Industry,Industry
+Sales Executive,belongsToIndustry,Automotive Industry,Industry
+Sales Executive,belongsToIndustry,Real Estate,Industry
+Sales Executive,belongsToIndustry,Luxury Goods,Industry
+Sales Executive,belongsToIndustry,Travel and Tourism,Industry
+Sales Executive,belongsToIndustry,Entertainment and Media,Industry
+Sales Executive,belongsToIndustry,Security Services,Industry
+Sales Executive,belongsToIndustry,Sports and Recreation,Industry
+Sales Executive,belongsToIndustry,Human Resources and Recruitment,Industry
+Sales Executive,requiresJobPreference,WFH,WorkType
+Sales Executive,requiresJobPreference,Office,WorkType
+Sales Executive,requiresJobPreference,Field Jobs,WorkType
+Sales Executive,requiresContractType,Full-time,WorkType
+Sales Executive,requiresContractType,Part-time,WorkType
+Sales Executive,requiresContractType,Contract roles,WorkType
+Sales Executive,requiresShift,Rotational shifts,WorkShift
+Sales Executive,requiresShift,Fixed Shift,WorkShift
+Sales Executive,requiresShift,Night shift,WorkShift
+Sales Executive,languageProficiency,English,Proficiency
+Sales Executive,languageProficiency,Hindi,Proficiency
+Sales Executive,languageProficiency,Regional languages,Proficiency
+Sales Executive,salaryBenefit,Performance-based incentives,Compensation
+Sales Executive,salaryBenefit,Transport Allowance,Compensation
+Sales Executive,salaryBenefit,Food Allowance,Compensation
+Sales Executive,salaryBenefit,Accommodation Allowance,Compensation
+Sales Executive,salaryBenefit,GYM Memberships,Compensation
+Sales Executive,salaryBenefit,OTT Subscription,Compensation
+Inside Sales,requiresSkill,CRM,Skills
+Inside Sales,requiresSkill,Negotiation Skills,Skills
+Inside Sales,requiresSkill,MS Office,Skills
+Inside Sales,requiresSkill,Database Management,Skills
+Inside Sales,requiresSkill,Communication Skills,Skills
+Inside Sales,requiresSkill,Problem Solving,Skills
+Inside Sales,belongsToIndustry,Finance,Industry
+Inside Sales,belongsToIndustry,Retail,Industry
+Inside Sales,belongsToIndustry,IT Sales,Industry
+Inside Sales,belongsToIndustry,Banking,Industry
+Inside Sales,belongsToIndustry,Wholesale and Distribution,Industry
+Inside Sales,belongsToIndustry,B2B Sales,Industry
+Inside Sales,belongsToIndustry,Consumer Goods and FMCG,Industry
+Inside Sales,belongsToIndustry,Telecommunications,Industry
+Inside Sales,belongsToIndustry,Construction and Building Materials,Industry
+Inside Sales,belongsToIndustry,Education and Training,Industry
+Inside Sales,belongsToIndustry,Hospitality Industry,Industry
+Inside Sales,belongsToIndustry,Pharmaceutical Industry,Industry
+Inside Sales,belongsToIndustry,Automotive Industry,Industry
+Inside Sales,belongsToIndustry,Real Estate,Industry
+Inside Sales,belongsToIndustry,Luxury Goods,Industry
+Inside Sales,belongsToIndustry,Travel and Tourism,Industry
+Inside Sales,belongsToIndustry,Entertainment and Media,Industry
+Inside Sales,belongsToIndustry,Security Services,Industry
+Inside Sales,belongsToIndustry,Sports and Recreation,Industry
+Inside Sales,belongsToIndustry,Human Resources and Recruitment,Industry
+Inside Sales,requiresJobPreference,WFH,WorkType
+Inside Sales,requiresJobPreference,Office,WorkType
+Inside Sales,requiresJobPreference,Field Jobs,WorkType
+Inside Sales,requiresContractType,Full-time,WorkType
+Inside Sales,requiresContractType,Part-time,WorkType
+Inside Sales,requiresContractType,Contract roles,WorkType
+Inside Sales,requiresShift,Rotational shifts,WorkShift
+Inside Sales,requiresShift,Fixed Shift,WorkShift
+Inside Sales,requiresShift,Night shift,WorkShift
+Inside Sales,languageProficiency,English,Proficiency
+Inside Sales,languageProficiency,Hindi,Proficiency
+Inside Sales,languageProficiency,Regional languages,Proficiency
+Inside Sales,salaryBenefit,Performance-based incentives,Compensation
+Inside Sales,salaryBenefit,Transport Allowance,Compensation
+Inside Sales,salaryBenefit,Food Allowance,Compensation
+Inside Sales,salaryBenefit,Accommodation Allowance,Compensation
+Inside Sales,salaryBenefit,GYM Memberships,Compensation
+Inside Sales,salaryBenefit,OTT Subscription,Compensation
+Sales Representative,requiresSkill,CRM,Skills
+Sales Representative,requiresSkill,Negotiation Skills,Skills
+Sales Representative,requiresSkill,MS Office,Skills
+Sales Representative,requiresSkill,Database Management,Skills
+Sales Representative,requiresSkill,Communication Skills,Skills
+Sales Representative,requiresSkill,Problem Solving,Skills
+Sales Representative,belongsToIndustry,Finance,Industry
+Sales Representative,belongsToIndustry,Retail,Industry
+Sales Representative,belongsToIndustry,IT Sales,Industry
+Sales Representative,belongsToIndustry,Banking,Industry
+Sales Representative,belongsToIndustry,Wholesale and Distribution,Industry
+Sales Representative,belongsToIndustry,B2B Sales,Industry
+Sales Representative,belongsToIndustry,Consumer Goods and FMCG,Industry
+Sales Representative,belongsToIndustry,Telecommunications,Industry
+Sales Representative,belongsToIndustry,Construction and Building Materials,Industry
+Sales Representative,belongsToIndustry,Education and Training,Industry
+Sales Representative,belongsToIndustry,Hospitality Industry,Industry
+Sales Representative,belongsToIndustry,Pharmaceutical Industry,Industry
+Sales Representative,belongsToIndustry,Automotive Industry,Industry
+Sales Representative,belongsToIndustry,Real Estate,Industry
+Sales Representative,belongsToIndustry,Luxury Goods,Industry
+Sales Representative,belongsToIndustry,Travel and Tourism,Industry
+Sales Representative,belongsToIndustry,Entertainment and Media,Industry
+Sales Representative,belongsToIndustry,Security Services,Industry
+Sales Representative,belongsToIndustry,Sports and Recreation,Industry
+Sales Representative,belongsToIndustry,Human Resources and Recruitment,Industry
+Sales Representative,requiresJobPreference,WFH,WorkType
+Sales Representative,requiresJobPreference,Office,WorkType
+Sales Representative,requiresJobPreference,Field Jobs,WorkType
+Sales Representative,requiresContractType,Full-time,WorkType
+Sales Representative,requiresContractType,Part-time,WorkType
+Sales Representative,requiresContractType,Contract roles,WorkType
+Sales Representative,requiresShift,Rotational shifts,WorkShift
+Sales Representative,requiresShift,Fixed Shift,WorkShift
+Sales Representative,requiresShift,Night shift,WorkShift
+Sales Representative,languageProficiency,English,Proficiency
+Sales Representative,languageProficiency,Hindi,Proficiency
+Sales Representative,languageProficiency,Regional languages,Proficiency
+Sales Representative,salaryBenefit,Performance-based incentives,Compensation
+Sales Representative,salaryBenefit,Transport Allowance,Compensation
+Sales Representative,salaryBenefit,Food Allowance,Compensation
+Sales Representative,salaryBenefit,Accommodation Allowance,Compensation
+Sales Representative,salaryBenefit,GYM Memberships,Compensation
+Sales Representative,salaryBenefit,OTT Subscription,Compensation
+Sales Consultant,requiresSkill,CRM,Skills
+Sales Consultant,requiresSkill,Negotiation Skills,Skills
+Sales Consultant,requiresSkill,MS Office,Skills
+Sales Consultant,requiresSkill,Database Management,Skills
+Sales Consultant,requiresSkill,Communication Skills,Skills
+Sales Consultant,requiresSkill,Problem Solving,Skills
+Sales Consultant,belongsToIndustry,Finance,Industry
+Sales Consultant,belongsToIndustry,Retail,Industry
+Sales Consultant,belongsToIndustry,IT Sales,Industry
+Sales Consultant,belongsToIndustry,Banking,Industry
+Sales Consultant,belongsToIndustry,Wholesale and Distribution,Industry
+Sales Consultant,belongsToIndustry,B2B Sales,Industry
+Sales Consultant,belongsToIndustry,Consumer Goods and FMCG,Industry
+Sales Consultant,belongsToIndustry,Telecommunications,Industry
+Sales Consultant,belongsToIndustry,Construction and Building Materials,Industry
+Sales Consultant,belongsToIndustry,Education and Training,Industry
+Sales Consultant,belongsToIndustry,Hospitality Industry,Industry
+Sales Consultant,belongsToIndustry,Pharmaceutical Industry,Industry
+Sales Consultant,belongsToIndustry,Automotive Industry,Industry
+Sales Consultant,belongsToIndustry,Real Estate,Industry
+Sales Consultant,belongsToIndustry,Luxury Goods,Industry
+Sales Consultant,belongsToIndustry,Travel and Tourism,Industry
+Sales Consultant,belongsToIndustry,Entertainment and Media,Industry
+Sales Consultant,belongsToIndustry,Security Services,Industry
+Sales Consultant,belongsToIndustry,Sports and Recreation,Industry
+Sales Consultant,belongsToIndustry,Human Resources and Recruitment,Industry
+Sales Consultant,requiresJobPreference,WFH,WorkType
+Sales Consultant,requiresJobPreference,Office,WorkType
+Sales Consultant,requiresJobPreference,Field Jobs,WorkType
+Sales Consultant,requiresContractType,Full-time,WorkType
+Sales Consultant,requiresContractType,Part-time,WorkType
+Sales Consultant,requiresContractType,Contract roles,WorkType
+Sales Consultant,requiresShift,Rotational shifts,WorkShift
+Sales Consultant,requiresShift,Fixed Shift,WorkShift
+Sales Consultant,requiresShift,Night shift,WorkShift
+Sales Consultant,languageProficiency,English,Proficiency
+Sales Consultant,languageProficiency,Hindi,Proficiency
+Sales Consultant,languageProficiency,Regional languages,Proficiency
+Sales Consultant,salaryBenefit,Performance-based incentives,Compensation
+Sales Consultant,salaryBenefit,Transport Allowance,Compensation
+Sales Consultant,salaryBenefit,Food Allowance,Compensation
+Sales Consultant,salaryBenefit,Accommodation Allowance,Compensation
+Sales Consultant,salaryBenefit,GYM Memberships,Compensation
+Sales Consultant,salaryBenefit,OTT Subscription,Compensation
+Sales Coordinator,requiresSkill,CRM,Skills
+Sales Coordinator,requiresSkill,Negotiation Skills,Skills
+Sales Coordinator,requiresSkill,MS Office,WorkType
+Sales Coordinator,requiresSkill,Database Management,Skills
+Sales Coordinator,requiresSkill,Communication Skills,Skills
+Sales Coordinator,requiresSkill,Problem Solving,Skills
+Sales Coordinator,belongsToIndustry,Finance,Industry
+Sales Coordinator,belongsToIndustry,Retail,Industry
+Sales Coordinator,belongsToIndustry,IT Sales,Industry
+Sales Coordinator,belongsToIndustry,Banking,Industry
+Sales Coordinator,belongsToIndustry,Wholesale and Distribution,Industry
+Sales Coordinator,belongsToIndustry,B2B Sales,Industry
+Sales Coordinator,belongsToIndustry,Consumer Goods and FMCG,Industry
+Sales Coordinator,belongsToIndustry,Telecommunications,Industry
+Sales Coordinator,belongsToIndustry,Construction and Building Materials,Industry
+Sales Coordinator,belongsToIndustry,Education and Training,Industry
+Sales Coordinator,belongsToIndustry,Hospitality Industry,Industry
+Sales Coordinator,belongsToIndustry,Pharmaceutical Industry,Industry
+Sales Coordinator,belongsToIndustry,Automotive Industry,Industry
+Sales Coordinator,belongsToIndustry,Real Estate,Industry
+Sales Coordinator,belongsToIndustry,Luxury Goods,Industry
+Sales Coordinator,belongsToIndustry,Travel and Tourism,Industry
+Sales Coordinator,belongsToIndustry,Entertainment and Media,Industry
+Sales Coordinator,belongsToIndustry,Security Services,Industry
+Sales Coordinator,belongsToIndustry,Sports and Recreation,Industry
+Sales Coordinator,belongsToIndustry,Human Resources and Recruitment,Industry
+Sales Coordinator,requiresJobPreference,WFH,WorkType
+Sales Coordinator,requiresJobPreference,Office,WorkType
+Sales Coordinator,requiresJobPreference,Field Jobs,WorkType
+Sales Coordinator,requiresContractType,Full-time,CompanyType
+Sales Coordinator,requiresContractType,Part-time,CompanyType
+Sales Coordinator,requiresContractType,Contract roles,CompanyType
+Sales Coordinator,requiresShift,Rotational shifts,WorkShift
+Sales Coordinator,requiresShift,Fixed Shift,WorkShift
+Sales Coordinator,requiresShift,Night shift,WorkShift
+Sales Coordinator,languageProficiency,English,Proficiency
+Sales Coordinator,languageProficiency,Hindi,Proficiency
+Sales Coordinator,languageProficiency,Regional languages,Proficiency
+Sales Coordinator,salaryBenefit,Performance-based incentives,Compensation
+Sales Coordinator,salaryBenefit,Transport Allowance,Compensation
+Sales Coordinator,salaryBenefit,Food Allowance,Compensation
+Sales Coordinator,salaryBenefit,Accommodation Allowance,Compensation
+Sales Coordinator,salaryBenefit,GYM Memberships,Compensation
+Sales Coordinator,salaryBenefit,OTT Subscription,Compensation

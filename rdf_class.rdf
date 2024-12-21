@@ -1,0 +1,17 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+<http://example.org/JobRole> a rdfs:Class .
+
+<http://example.org/Qualification> a rdfs:Class .
+
+<http://example.org/Skill> a rdfs:Class .
+
+<http://example.org/name> a rdf:Property ;
+    rdfs:domain <http://schema.org/Thing> ;
+    rdfs:range rdfs:Literal .
+
+<http://example.org/requiresSkill> a rdf:Property ;
+    rdfs:domain <http://example.org/JobRole> ;
+    rdfs:range <http://example.org/Skill> .
+

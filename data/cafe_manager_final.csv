@@ -1,0 +1,164 @@
+NodeOne,Relation,NodeTwo,NodeClass
+Cafe Lead Manager,requiresSkill,CRM,Skills
+Cafe Lead Manager,requiresSkill,Food Preparation,Skills
+Cafe Lead Manager,requiresSkill,Safety Standards,Skills
+Cafe Lead Manager,requiresSkill,POS Systems,Skills
+Cafe Lead Manager,requiresSkill,Inventory Management,Skills
+Cafe Lead Manager,requiresSkill,Team Management,Skills
+Cafe Lead Manager,requiresSkill,Customer Service,Skills
+Cafe Lead Manager,requiresSkill,Communication,Skills
+Cafe Lead Manager,requiresSkill,Leadership,Skills
+Cafe Lead Manager,requiresSkill,Conflict Resolution,Skills
+Cafe Lead Manager,belongsToIndustry,Hospitality,Industry
+Cafe Lead Manager,belongsToIndustry,Food Service,Industry
+Cafe Lead Manager,belongsToIndustry,Retail,Industry
+Cafe Lead Manager,requiresJobPreference,Office Jobs,JobPreference
+Cafe Lead Manager,requiresJobType,Full-time,WorkType
+Cafe Lead Manager,requiresworkShift,Day Shift,WorkShift
+Cafe Lead Manager,requiresworkShift,Night Shift,WorkShift
+Cafe Lead Manager,requiresworkShift,Rotational Shift,WorkShift
+Cafe Lead Manager,salaryBenefit,Performance-based incentives,Compensation
+Cafe Lead Manager,salaryBenefit,PF,Compensation
+Cafe Lead Manager,salaryBenefit,Insurance,Compensation
+Cafe Lead Manager,salaryBenefit,Health Insurance,Compensation
+Cafe Lead Manager,salaryBenefit,Meal Allowances,Compensation
+Cafe Lead Manager,salaryBenefit,Accomodation ,Compensation
+Cafe Lead Manager,languageProficiency,English,Proficiency
+Cafe Lead Manager,languageProficiency,Tamil,Proficiency
+Cafe Lead Manager,languageProficiency,Hindi,Proficiency
+Cafe Lead Manager,languageProficiency,Regional Languages,Proficiency
+Cafe Lead Manager,genderPreference,Male,Gender
+Cafe Lead Manager,genderPreference,Female,Gender
+Cafe Lead Manager,requiresLocation,Metro City,GeographicalLocation
+Cafe Lead Manager,requiresLocation,Flexible for Relocation,GeographicalLocation
+Cafe Lead Manager,requiresExperience,2+ Years in Food Service Management,YearOfExperience
+Cafe Lead Manager,requiresEducation,Degree in Hospitality Management,Qualification
+Restaurant Manager,requiresSkill,CRM,Skills
+Restaurant Manager,requiresSkill,Food Preparation,Skills
+Restaurant Manager,requiresSkill,Safety Standards,Skills
+Restaurant Manager,requiresSkill,POS Systems,Skills
+Restaurant Manager,requiresSkill,Inventory Management,Skills
+Restaurant Manager,requiresSkill,Team Management,Skills
+Restaurant Manager,requiresSkill,Customer Service,Skills
+Restaurant Manager,requiresSkill,Communication,Skills
+Restaurant Manager,requiresSkill,Leadership,Skills
+Restaurant Manager,requiresSkill,Conflict Resolution,Skills
+Restaurant Manager,belongsToIndustry,Hospitality,Industry
+Restaurant Manager,belongsToIndustry,Food Service,Industry
+Restaurant Manager,belongsToIndustry,Retail,Industry
+Restaurant Manager,belongsToIndustry,Fast Food Chains,Industry
+Restaurant Manager,requiresJobPreference,Office Jobs,JobPreference
+Restaurant Manager,requiresWorkType,Full-time,WorkType
+Restaurant Manager,requiresShift,Day Shift,WorkShift
+Restaurant Manager,requiresShift,Night Shift,WorkShift
+Restaurant Manager,requiresShift,Rotational Shift,WorkShift
+Restaurant Manager,salaryBenefit,Performance-based incentives,Compensation
+Restaurant Manager,salaryBenefit,PF,Compensation
+Restaurant Manager,salaryBenefit,Insurance,Compensation
+Restaurant Manager,salaryBenefit,Health Insurance,Compensation
+Restaurant Manager,salaryBenefit,Meal Allowances,Compensation
+Restaurant Manager,languageProficiency,English,Proficiency
+Restaurant Manager,languageProficiency,Tamil,Proficiency
+Restaurant Manager,languageProficiency,Hindi,Proficiency
+Restaurant Manager,languageProficiency,Regional Languages,Proficiency
+Restaurant Manager,genderPreference,Male,Gender
+Restaurant Manager,genderPreference,Female,Gender
+Restaurant Manager,requiresLocation,Metro City,GeographicalLocation
+Restaurant Manager,requiresLocation,Flexible for Relocation,GeographicalLocation
+Restaurant Manager,requiresExperience,3+ Years in Restaurant Management,YearOfExperience
+Restaurant Manager,requiresEducation,Degree in Hospitality or Food Management,Qualification
+Assistant Manager,requiresSkill,CRM,Skills
+Assistant Manager,requiresSkill,Food Preparation,Skills
+Assistant Manager,requiresSkill,Safety Standards,Skills
+Assistant Manager,requiresSkill,POS Systems,Skills
+Assistant Manager,requiresSkill,Inventory Management,Skills
+Assistant Manager,requiresSkill,Team Management,Skills
+Assistant Manager,requiresSkill,Customer Service,Skills
+Assistant Manager,requiresSkill,Communication,Skills
+Assistant Manager,requiresSkill,Leadership,Skills
+Assistant Manager,requiresSkill,Conflict Resolution,Skills
+Assistant Manager,belongsToIndustry,Hospitality,Industry
+Assistant Manager,belongsToIndustry,Food Service,Industry
+Assistant Manager,belongsToIndustry,Retail,Industry
+Assistant Manager,requiresJobPreference,Office Jobs,JobPreference
+Assistant Manager,requiresWorkType,Full-time,WorkType
+Assistant Manager,requiresShift,Day Shift,WorkShift
+Assistant Manager,requiresShift,Night Shift,WorkShift
+Assistant Manager,requiresShift,Rotational Shift,WorkShift
+Assistant Manager,salaryBenefit,Performance-based incentives,Compensation
+Assistant Manager,salaryBenefit,PF,Compensation
+Assistant Manager,salaryBenefit,Insurance,Compensation
+Assistant Manager,salaryBenefit,Health Insurance,Compensation
+Assistant Manager,salaryBenefit,Meal Allowances,Compensation
+Assistant Manager,languageProficiency,English,Proficiency
+Assistant Manager,languageProficiency,Tamil,Proficiency
+Assistant Manager,languageProficiency,Hindi,Proficiency
+Assistant Manager,genderPreference,Male,Gender
+Assistant Manager,genderPreference,Female,Gender
+Assistant Manager,requiresLocation,Metro City,GeographicalLocation
+Assistant Manager,requiresLocation,Flexible for Relocation,GeographicalLocation
+Assistant Manager,requiresExperience,2+ Years in Assistant Management,YearOfExperience
+Assistant Manager,requiresEducation,Degree in Hospitality or Food Management,Qualification
+Shift Supervisor,requiresSkill,CRM,Skills
+Shift Supervisor,requiresSkill,Food Preparation,Skills
+Shift Supervisor,requiresSkill,Safety Standards,Skills
+Shift Supervisor,requiresSkill,POS Systems,Skills
+Shift Supervisor,requiresSkill,Inventory Management,Skills
+Shift Supervisor,requiresSkill,Team Management,Skills
+Shift Supervisor,requiresSkill,Customer Service,Skills
+Shift Supervisor,requiresSkill,Communication,Skills
+Shift Supervisor,requiresSkill,Leadership,Skills
+Shift Supervisor,requiresSkill,Conflict Resolution,Skills
+Shift Supervisor,belongsToIndustry,Hospitality,Industry
+Shift Supervisor,belongsToIndustry,Food Service,Industry
+Shift Supervisor,belongsToIndustry,Retail,Industry
+Shift Supervisor,requiresJobPreference,Office Jobs,JobPreference
+Shift Supervisor,requiresWorkType,Full-time,WorkType
+Shift Supervisor,requiresShift,Day Shift,WorkShift
+Shift Supervisor,requiresShift,Night Shift,WorkShift
+Shift Supervisor,requiresShift,Rotational Shift,WorkShift
+Shift Supervisor,salaryBenefit,Performance-based incentives,Compensation
+Shift Supervisor,salaryBenefit,PF,Compensation
+Shift Supervisor,salaryBenefit,Insurance,Compensation
+Shift Supervisor,salaryBenefit,Health Insurance,Compensation
+Shift Supervisor,salaryBenefit,Meal Allowances,Compensation
+Shift Supervisor,languageProficiency,English,Proficiency
+Shift Supervisor,languageProficiency,Tamil,Proficiency
+Shift Supervisor,languageProficiency,Regional Languages,Proficiency
+Shift Supervisor,languageProficiency,Hindi,Proficiency
+Shift Supervisor,genderPreference,Male,Gender
+Shift Supervisor,genderPreference,Female,Gender
+Shift Supervisor,requiresLocation,Metro City,GeographicalLocation
+Shift Supervisor,requiresLocation,Flexible for Relocation,GeographicalLocation
+Shift Supervisor,requiresExperience,1+ Year in Shift Supervision,YearOfExperience
+Shift Supervisor,requiresEducation,Degree in Hospitality or Food Management,Qualification
+Food and Beverage Manager,requiresSkill,CRM,Skills
+Food and Beverage Manager,requiresSkill,Food Preparation,Skills
+Food and Beverage Manager,requiresSkill,Safety Standards,Skills
+Food and Beverage Manager,requiresSkill,POS Systems,Skills
+Food and Beverage Manager,requiresSkill,Inventory Management,Skills
+Food and Beverage Manager,requiresSkill,Team Management,Skills
+Food and Beverage Manager,requiresSkill,Customer Service,Skills
+Food and Beverage Manager,requiresSkill,Communication,Skills
+Food and Beverage Manager,requiresSkill,Leadership,Skills
+Food and Beverage Manager,belongsToIndustry,Hospitality,Industry
+Food and Beverage Manager,belongsToIndustry,Food Service,Industry
+Food and Beverage Manager,requiresJobPreference,Office Jobs,JobPreference
+Food and Beverage Manager,requiresWorkType,Full-time,WorkType
+Food and Beverage Manager,requiresShift,Day Shift,WorkShift
+Food and Beverage Manager,requiresShift,Night Shift,WorkShift
+Food and Beverage Manager,requiresShift,Rotational Shift,WorkShift
+Food and Beverage Manager,salaryBenefit,Performance-based incentives,Compensation
+Food and Beverage Manager,salaryBenefit,PF,Compensation
+Food and Beverage Manager,salaryBenefit,Insurance,Compensation
+Food and Beverage Manager,salaryBenefit,Health Insurance,Compensation
+Food and Beverage Manager,salaryBenefit,Meal Allowances,Compensation
+Food and Beverage Manager,languageProficiency,English,Proficiency
+Food and Beverage Manager,languageProficiency,Tamil,Proficiency
+Food and Beverage Manager,languageProficiency,Hindi,Proficiency
+Food and Beverage Manager,genderPreference,Male,Gender
+Food and Beverage Manager,genderPreference,Female,Gender
+Food and Beverage Manager,requiresLocation,Metro City,GeographicalLocation
+Food and Beverage Manager,requiresLocation,Flexible for Relocation,GeographicalLocation
+Food and Beverage Manager,requiresExperience,4+ Years in Food and Beverage Management,YearOfExperience
+Food and Beverage Manager,requiresEducation,Degree in Hospitality or Food Management,Qualification

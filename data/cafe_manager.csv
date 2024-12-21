@@ -1,0 +1,164 @@
+NodeOne,Relation,NodeTwo,NodeClass
+Cafe Lead Manager,requiresSkill,CRM
+Cafe Lead Manager,requiresSkill,Food Preparation
+Cafe Lead Manager,requiresSkill,Safety Standards
+Cafe Lead Manager,requiresSkill,POS Systems
+Cafe Lead Manager,requiresSkill,Inventory Management
+Cafe Lead Manager,requiresSkill,Team Management
+Cafe Lead Manager,requiresSkill,Customer Service
+Cafe Lead Manager,requiresSkill,Communication
+Cafe Lead Manager,requiresSkill,Leadership
+Cafe Lead Manager,requiresSkill,Conflict Resolution
+Cafe Lead Manager,belongsToIndustry,Hospitality
+Cafe Lead Manager,belongsToIndustry,Food Service
+Cafe Lead Manager,belongsToIndustry,Retail
+Cafe Lead Manager,requiresJobPreference,Office Jobs
+Cafe Lead Manager,requiresJobType,Full-time
+Cafe Lead Manager,requiresworkShift,Day Shift
+Cafe Lead Manager,requiresworkShift,Night Shift
+Cafe Lead Manager,requiresworkShift,Rotational Shift
+Cafe Lead Manager,salaryBenefit,Performance-based incentives
+Cafe Lead Manager,salaryBenefit,PF
+Cafe Lead Manager,salaryBenefit,Insurance
+Cafe Lead Manager,salaryBenefit,Health Insurance
+Cafe Lead Manager,salaryBenefit,Meal Allowances
+Cafe Lead Manager,salaryBenefit,Accomodation 
+Cafe Lead Manager,languageProficiency,English
+Cafe Lead Manager,languageProficiency,Tamil
+Cafe Lead Manager,languageProficiency,Hindi
+Cafe Lead Manager,languageProficiency,Regional Languages
+Cafe Lead Manager,genderPreference,Male
+Cafe Lead Manager,genderPreference,Female
+Cafe Lead Manager,requiresLocation,Metro City
+Cafe Lead Manager,requiresLocation,Flexible for Relocation
+Cafe Lead Manager,requiresExperience,2+ Years in Food Service Management
+Cafe Lead Manager,requiresEducation,Degree in Hospitality Management
+Restaurant Manager,requiresSkill,CRM
+Restaurant Manager,requiresSkill,Food Preparation
+Restaurant Manager,requiresSkill,Safety Standards
+Restaurant Manager,requiresSkill,POS Systems
+Restaurant Manager,requiresSkill,Inventory Management
+Restaurant Manager,requiresSkill,Team Management
+Restaurant Manager,requiresSkill,Customer Service
+Restaurant Manager,requiresSkill,Communication
+Restaurant Manager,requiresSkill,Leadership
+Restaurant Manager,requiresSkill,Conflict Resolution
+Restaurant Manager,belongsToIndustry,Hospitality
+Restaurant Manager,belongsToIndustry,Food Service
+Restaurant Manager,belongsToIndustry,Retail
+Restaurant Manager,belongsToIndustry,Fast Food Chains
+Restaurant Manager,requiresJobPreference,Office Jobs
+Restaurant Manager,requiresWorkType,Full-time
+Restaurant Manager,requiresShift,Day Shift
+Restaurant Manager,requiresShift,Night Shift
+Restaurant Manager,requiresShift,Rotational Shift
+Restaurant Manager,salaryBenefit,Performance-based incentives
+Restaurant Manager,salaryBenefit,PF
+Restaurant Manager,salaryBenefit,Insurance
+Restaurant Manager,salaryBenefit,Health Insurance
+Restaurant Manager,salaryBenefit,Meal Allowances
+Restaurant Manager,languageProficiency,English
+Restaurant Manager,languageProficiency,Tamil
+Restaurant Manager,languageProficiency,Hindi
+Restaurant Manager,languageProficiency,Regional Languages
+Restaurant Manager,genderPreference,Male
+Restaurant Manager,genderPreference,Female
+Restaurant Manager,requiresLocation,Metro City
+Restaurant Manager,requiresLocation,Flexible for Relocation
+Restaurant Manager,requiresExperience,3+ Years in Restaurant Management
+Restaurant Manager,requiresEducation,Degree in Hospitality or Food Management
+Assistant Manager,requiresSkill,CRM
+Assistant Manager,requiresSkill,Food Preparation
+Assistant Manager,requiresSkill,Safety Standards
+Assistant Manager,requiresSkill,POS Systems
+Assistant Manager,requiresSkill,Inventory Management
+Assistant Manager,requiresSkill,Team Management
+Assistant Manager,requiresSkill,Customer Service
+Assistant Manager,requiresSkill,Communication
+Assistant Manager,requiresSkill,Leadership
+Assistant Manager,requiresSkill,Conflict Resolution
+Assistant Manager,belongsToIndustry,Hospitality
+Assistant Manager,belongsToIndustry,Food Service
+Assistant Manager,belongsToIndustry,Retail
+Assistant Manager,requiresJobPreference,Office Jobs
+Assistant Manager,requiresWorkType,Full-time
+Assistant Manager,requiresShift,Day Shift
+Assistant Manager,requiresShift,Night Shift
+Assistant Manager,requiresShift,Rotational Shift
+Assistant Manager,salaryBenefit,Performance-based incentives
+Assistant Manager,salaryBenefit,PF
+Assistant Manager,salaryBenefit,Insurance
+Assistant Manager,salaryBenefit,Health Insurance
+Assistant Manager,salaryBenefit,Meal Allowances
+Assistant Manager,languageProficiency,English
+Assistant Manager,languageProficiency,Tamil
+Assistant Manager,languageProficiency,Hindi
+Assistant Manager,genderPreference,Male
+Assistant Manager,genderPreference,Female
+Assistant Manager,requiresLocation,Metro City
+Assistant Manager,requiresLocation,Flexible for Relocation
+Assistant Manager,requiresExperience,2+ Years in Assistant Management
+Assistant Manager,requiresEducation,Degree in Hospitality or Food Management
+Shift Supervisor,requiresSkill,CRM
+Shift Supervisor,requiresSkill,Food Preparation
+Shift Supervisor,requiresSkill,Safety Standards
+Shift Supervisor,requiresSkill,POS Systems
+Shift Supervisor,requiresSkill,Inventory Management
+Shift Supervisor,requiresSkill,Team Management
+Shift Supervisor,requiresSkill,Customer Service
+Shift Supervisor,requiresSkill,Communication
+Shift Supervisor,requiresSkill,Leadership
+Shift Supervisor,requiresSkill,Conflict Resolution
+Shift Supervisor,belongsToIndustry,Hospitality
+Shift Supervisor,belongsToIndustry,Food Service
+Shift Supervisor,belongsToIndustry,Retail
+Shift Supervisor,requiresJobPreference,Office Jobs
+Shift Supervisor,requiresWorkType,Full-time
+Shift Supervisor,requiresShift,Day Shift
+Shift Supervisor,requiresShift,Night Shift
+Shift Supervisor,requiresShift,Rotational Shift
+Shift Supervisor,salaryBenefit,Performance-based incentives
+Shift Supervisor,salaryBenefit,PF
+Shift Supervisor,salaryBenefit,Insurance
+Shift Supervisor,salaryBenefit,Health Insurance
+Shift Supervisor,salaryBenefit,Meal Allowances
+Shift Supervisor,languageProficiency,English
+Shift Supervisor,languageProficiency,Tamil
+Shift Supervisor,languageProficiency,Regional Languages
+Shift Supervisor,languageProficiency,Hindi
+Shift Supervisor,genderPreference,Male
+Shift Supervisor,genderPreference,Female
+Shift Supervisor,requiresLocation,Metro City
+Shift Supervisor,requiresLocation,Flexible for Relocation
+Shift Supervisor,requiresExperience,1+ Year in Shift Supervision
+Shift Supervisor,requiresEducation,Degree in Hospitality or Food Management
+Food and Beverage Manager,requiresSkill,CRM
+Food and Beverage Manager,requiresSkill,Food Preparation
+Food and Beverage Manager,requiresSkill,Safety Standards
+Food and Beverage Manager,requiresSkill,POS Systems
+Food and Beverage Manager,requiresSkill,Inventory Management
+Food and Beverage Manager,requiresSkill,Team Management
+Food and Beverage Manager,requiresSkill,Customer Service
+Food and Beverage Manager,requiresSkill,Communication
+Food and Beverage Manager,requiresSkill,Leadership
+Food and Beverage Manager,belongsToIndustry,Hospitality
+Food and Beverage Manager,belongsToIndustry,Food Service
+Food and Beverage Manager,requiresJobPreference,Office Jobs
+Food and Beverage Manager,requiresWorkType,Full-time
+Food and Beverage Manager,requiresShift,Day Shift
+Food and Beverage Manager,requiresShift,Night Shift
+Food and Beverage Manager,requiresShift,Rotational Shift
+Food and Beverage Manager,salaryBenefit,Performance-based incentives
+Food and Beverage Manager,salaryBenefit,PF
+Food and Beverage Manager,salaryBenefit,Insurance
+Food and Beverage Manager,salaryBenefit,Health Insurance
+Food and Beverage Manager,salaryBenefit,Meal Allowances
+Food and Beverage Manager,languageProficiency,English
+Food and Beverage Manager,languageProficiency,Tamil
+Food and Beverage Manager,languageProficiency,Hindi
+Food and Beverage Manager,genderPreference,Male
+Food and Beverage Manager,genderPreference,Female
+Food and Beverage Manager,requiresLocation,Metro City
+Food and Beverage Manager,requiresLocation,Flexible for Relocation
+Food and Beverage Manager,requiresExperience,4+ Years in Food and Beverage Management
+Food and Beverage Manager,requiresEducation,Degree in Hospitality or Food Management

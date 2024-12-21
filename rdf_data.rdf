@@ -1,0 +1,19 @@
+@prefix ns1: <http://example.org/> .
+
+ns1:BusinessAdminDegree a ns1:Qualification ;
+    ns1:name "Degree in Business Administration" .
+
+ns1:SalesCertification a ns1:Qualification ;
+    ns1:name "Professional Certification in Sales" .
+
+ns1:SalesExecutive a ns1:JobRole ;
+    ns1:name "Sales Executive" ;
+    ns1:requiresSkill ns1:CRM,
+        ns1:Negotiation .
+
+ns1:CRM a ns1:Skill ;
+    ns1:name "Customer Relationship Management" .
+
+ns1:Negotiation a ns1:Skill ;
+    ns1:name "Negotiation Skills" .
+
