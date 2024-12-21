@@ -57,7 +57,7 @@ def execute_query(query: str):
     if(query in query_mapping):
         query = query_mapping[query]
     try:
-        with driver.session(database="testingvv") as session:
+        with driver.session(database="hack") as session:
             # Execute the query and fetch the results
             results = session.run(query)
             # Convert results to a list of dictionaries
